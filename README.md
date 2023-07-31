@@ -14,4 +14,4 @@
 
 - 📬 Don't hesitate to reach out to me on my Personal-email `andrealcuasmalta@gmail.com` or UOM-email: `andrea.f.lucas.22@um.edu.mt`. Let's connect and explore the endless possibilities of this transformative technology!
 
-- 😋 Keep coding and embracing the limitless potential of AI!
+- 🫶🏻 Keep coding and embracing the limitless potential of AI!
