@@ -1,17 +1,17 @@
-- 👋 Hi, I’m `@AFLucas-UOM`, a second-year student pursuing a B.Sc. in ICT with a focus on AI (Artificial Intelligence) at the University of Malta (UOM).
+# Andrea Filiberto Lucas
+👨🏻‍🎓 Student at the [University of Malta](https://www.um.edu.mt/)
 
-- 🎓 As a passionate learner, I am thrilled to be exploring the fascinating world of AI and its applications. My studies at UOM have equipped me with a solid foundation in various aspects of technology, including programming, data analysis, machine learning, and more.
+## About Me
+- 👋 Hey there, I’m `@AFLucas-UOM`, a second-year student pursuing a B.Sc. in ICT with a focus on Artificial Intelligence (AI) at the `University of Malta` (UOM).
 
-- 🌐 My GitHub repositories reflect my journey as I delve into the realm of AI and strive to apply my theoretical knowledge to practical projects. I am eager to collaborate with like-minded individuals, contribute to open-source initiatives, and develop innovative solutions that harness the power of artificial intelligence.
+- 🎓 I am thrilled to be exploring the fascinating world of AI and its applications. My time at UOM has given me a solid grounding in various tech fields, from programming to data analysis and machine learning.
 
-- 💻 Through hands-on experience, I am honing my skills in these programming languages: Python (favourite), Java, R, SQL, JavaScript, PHP and C. As well as markup languages such as: HTML and CSS.
+- 🌐 On my GitHub, you can follow along with my journey into AI as I work on turning theory into practical projects.
 
-- 🌱 As an advocate for lifelong learning, I am dedicated to expanding my knowledge beyond the classroom. I actively engage with online resources, attend webinars, and participate in AI-related communities to keep abreast of emerging trends and broaden my understanding of the field.
+- 💻 I'm actively refining my skills through hands-on experience in a variety of programming and markup languages, ensuring versatility across different tech stacks and platforms.
 
-- ✨ When I'm not immersed in coding and AI, I enjoy exploring other areas of technology, discovering new tech gadgets, and staying active in the local tech community. It's important for me to maintain a balanced lifestyle and find inspiration outside of my academic pursuits.
+- 🤝 I'm all about connecting with fellow students, researchers, and professionals in the AI and tech space. Whether it's teaming up on exciting projects or bouncing ideas off each other, I'm a firm believer in the power of collaboration and collective knowledge.
 
-- 🤝 I am always open to connecting with fellow students, researchers, and professionals in the field of AI and technology. Whether it's collaborating on exciting projects or exchanging ideas, I believe in the power of collective knowledge and the positive impact we can create together.
-
-- 📬 Don't hesitate to reach out to me on my Personal-email `andrealcuasmalta@gmail.com` or UOM-email: `andrea.f.lucas.22@um.edu.mt`. Let's connect and explore the endless possibilities of this transformative technology!
+- 📬 Feel free to to reach out at my personal email [andrealcuasmalta@gmail.com](mailto:andrealcuasmalta@gmail.com) or my UOM email [andrea.f.lucas.22@um.edu.mt](mailto:andrea.f.lucas.22@um.edu.mt).
 
 - 🫶🏻 Keep coding and embracing the limitless potential of AI!
