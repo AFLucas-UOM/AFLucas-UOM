@@ -3,7 +3,7 @@
 
 ## About Me
 
-👋 Hey there, I’m `@AFLucas-UOM`, a second-year student pursuing a B.Sc. in ICT with a focus on Artificial Intelligence (AI) at the `University of Malta` (UOM).
+👋 Hey there, I’m `@AFLucas-UOM`, a third-year student pursuing a B.Sc. in ICT with a focus on Artificial Intelligence (AI) at the `University of Malta` (UOM).
 
 🎓 I am thrilled to be exploring the fascinating world of AI and its applications. My time at UOM has given me a solid grounding in various tech fields, from programming to data analysis and machine learning.
 
