@@ -45,9 +45,3 @@ If you’d like to support my work, consider buying me a coffee! Your support fu
         <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee">
     </a>
 </div>    
-
-Or simply scan the QR code below:
-
-<div align="center">
-    <img src="bmc_qr.png" alt="Buy Me a Coffee QR Code" width="300">
-</div>
