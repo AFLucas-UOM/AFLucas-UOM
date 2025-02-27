@@ -3,10 +3,10 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Artificial%20Intelligence-%23008DFF.svg?style=for-the-badge&logo=robot-framework&logoColor=white">
-  <img src="https://img.shields.io/badge/Computer%20Vision-%234285F4.svg?style=for-the-badge&logo=opencv&logoColor=white">
-  <img src="https://img.shields.io/badge/Machine%20Learning-%23FF6F00.svg?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/AI%20in%20Education-%239C27B0.svg?style=for-the-badge&logo=bookstack&logoColor=white">
+  <img src="https://img.shields.io/badge/Artificial%20Intelligence%20(AI)-%23008DFF.svg?style=for-the-badge&logo=robot-framework&logoColor=white">
+  <img src="https://img.shields.io/badge/Computer%20Vision%20(CV)-%234285F4.svg?style=for-the-badge&logo=opencv&logoColor=white">
+  <img src="https://img.shields.io/badge/Machine%20Learning%20(ML)-%23FF6F00.svg?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/AI%20in%20Education%20(AIED)-%239C27B0.svg?style=for-the-badge&logo=bookstack&logoColor=white">
 </p>
 
 
