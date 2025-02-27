@@ -14,13 +14,7 @@
 
 I’m a **third-year BSc ICT student** at the [University of Malta](https://www.um.edu.mt/), specialising in **Artificial Intelligence**.  
 
-🔬 Passionate about **computer vision, AI-driven applications, and data science**, I love solving real-world problems through AI. My work spans **machine learning models, OCR, NLP, and AI-driven web applications**.  
-
-## 🚀 Currently working on:  
-- 📌 **[Byte Bite-AI](#)** – A healthy eating assistant for students  
-- 📌 **[Storyboard-AI](#)** – An interactive AI storytelling tool  
-- 📌 **[FYP: Accurate Name Extraction from News Graphics](#)** – AI model for named entity recognition in news media
-
+🔬 Passionate about **computer vision, AI-driven applications, and data science**, I love solving real-world problems using AI. My work spans **machine learning models, OCR, NLP, and AI-driven web applications**.  
 
 ## 🧑🏻‍💻 Tech Stack & Expertise  
 - **Programming:** Python, JavaScript, C, etc.  
@@ -29,13 +23,29 @@ I’m a **third-year BSc ICT student** at the [University of Malta](https://www.
 - **Web & Scripting:** Flask, HTML/CSS, Markdown, LaTeX  
 - **Tools & Libraries:** OpenCV, TensorFlow, PyTorch, NLTK, spaCy  
 
+## 🚀 Currently working on:  
+- 📌 **[Byte Bite-AI](#)** – A healthy eating assistant for students  
+- 📌 **[Storyboard-AI](#)** – An interactive AI storytelling tool  
+- 📌 **[FYP: Accurate Name Extraction from News Graphics](#)** – AI model for named entity recognition in news media
 
 ## 📊 GitHub Stats  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AFLucas-UOM&show_icons=true&theme=vue-dark" height="180">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFLucas-UOM&layout=compact&theme=vue-dark" height="180">
+  <a href="https://github.com/AFLucas-UOM">
+    <img src="https://github-readme-stats.vercel.app/api?username=AFLucas-UOM&show_icons=true&theme=vue-dark" height="180">
+  </a>
+  <a href="https://github.com/AFLucas-UOM">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFLucas-UOM&layout=compact&theme=vue-dark" height="180">
+  </a>
 </p>
 
+## 🤪 Fun Facts About Me 
+When I'm not working on AI projects, you'll probably find me:
+- 🙏 **Volunteering at [ACTS Teens Malta](https://www.acts.mt/)**  
+- 🍽️ **Trying *(and sometimes failing)* new air fryer recipes** 
+- 🎶 **Playing the piano, hoping my neighbours don’t mind**  
+- 💸 **Convincing myself that **"just one more"** vinyl won’t hurt my wallet**
+
+Basically, if I’m not coding, I’m either making noise, spending money, eating (or sleeping 😴).  
 
 ## 📫 How to Reach Me  
 <p align="center">
