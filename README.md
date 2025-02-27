@@ -16,6 +16,29 @@ I’m a **third-year BSc ICT student** at the [University of Malta](https://www.
 
 🔬 Passionate about **computer vision, AI-driven applications, and data science**, I love solving real-world problems using AI. My work spans **machine learning models, OCR, NLP, and AI-driven web applications**.  
 
+## 📫 How to Reach Me  
+<p align="center">
+    <a href="mailto:andrealucasmalta@gmail.com">
+        <img src="https://img.shields.io/badge/Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+    </a>
+    <a href="mailto:andrea.f.lucas.22@um.edu.mt">
+        <img src="https://img.shields.io/badge/University%20Email-andrea.f.lucas.22@um.edu.mt-red?style=for-the-badge&logo=gmail&logoColor=white" alt="University Email">
+    </a>
+    <br><br>
+    <a href="https://www.instagram.com/aflucas26/">
+        <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+    </a>
+    <a href="https://www.facebook.com/andrea.lucas.35175">
+        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
+    </a>
+    <a href="https://x.com/AFLucas26">
+        <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
+    </a>
+    <a href="https://www.threads.net/@aflucas26">
+        <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads">
+    </a>
+</p>
+
 ## 🧑🏻‍💻 Tech Stack & Expertise  
 - **Programming:** Python, JavaScript, C, etc.  
 - **AI/ML:** Deep Learning, Computer Vision, NLP, Generative AI  
@@ -46,26 +69,3 @@ When I'm not working on AI projects, you'll probably find me:
 - 💸 **Convincing myself that **"just one more"** vinyl won’t hurt my wallet**
 
 Basically, if I’m not coding, I’m either making noise, spending money, eating (or sleeping 😴).  
-
-## 📫 How to Reach Me  
-<p align="center">
-    <a href="mailto:andrealucasmalta@gmail.com">
-        <img src="https://img.shields.io/badge/Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-    </a>
-    <a href="mailto:andrea.f.lucas.22@um.edu.mt">
-        <img src="https://img.shields.io/badge/University%20Email-andrea.f.lucas.22@um.edu.mt-red?style=for-the-badge&logo=gmail&logoColor=white" alt="University Email">
-    </a>
-    <br><br>
-    <a href="https://www.instagram.com/aflucas26/">
-        <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
-    </a>
-    <a href="https://www.facebook.com/andrea.lucas.35175">
-        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
-    </a>
-    <a href="https://x.com/AFLucas26">
-        <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
-    </a>
-    <a href="https://www.threads.net/@aflucas26">
-        <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads">
-    </a>
-</p>
