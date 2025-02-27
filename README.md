@@ -34,14 +34,3 @@
         <img src="https://img.shields.io/badge/Threads-orange?style=for-the-badge&logo=threads&logoColor=white" alt="Threads">
     </a>
 </div>
-
-
-## ☕ Buy Me a Coffee
-
-If you’d like to support my work, consider buying me a coffee! Your support fuels my late-night coding sessions and helps me keep my projects open-source. 
-
-<div align="center">
-    <a href="https://buymeacoffee.com/aflucas">
-        <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee">
-    </a>
-</div>    
