@@ -23,10 +23,10 @@ I’m a **third-year BSc ICT student** at the [University of Malta](https://www.
 - **Web & Scripting:** Flask, HTML/CSS, Markdown, LaTeX  
 - **Tools & Libraries:** OpenCV, TensorFlow, PyTorch, NLTK, spaCy  
 
-## 🚀 Currently working on:  
-- 📌 **[Byte Bite-AI](#)** – A healthy eating assistant for students  
-- 📌 **[Storyboard-AI](#)** – An interactive AI storytelling tool  
-- 📌 **[FYP: Accurate Name Extraction from News Graphics](#)** – AI model for named entity recognition in news media
+## 🚀 Recent Projects / Work in Progress    
+- 📌 **[Byte Bite-AI](https://github.com/AFLucas-UOM/Byte-Bite-AI)** – A healthy eating assistant for students  
+- 📌 **[Storyboard-AI](https://github.com/AFLucas-UOM/Storyboard-AI)** – An interactive AI storytelling tool  
+- 📌 **FYP: Accurate Name Extraction from News Graphics** – AI model for named entity recognition in news media (Repo not available yet)  
 
 ## 📊 GitHub Stats  
 <p align="center">
