@@ -49,7 +49,7 @@ I’m a **third-year BSc ICT student** at the [University of Malta](https://www.
 ## 🚀 Recent Projects / Work in Progress    
 - 📌 **[Byte Bite-AI](https://github.com/AFLucas-UOM/Byte-Bite-AI)** – A healthy eating assistant for students  
 - 📌 **[Storyboard-AI](https://github.com/AFLucas-UOM/Storyboard-AI)** – An interactive AI storytelling tool  
-- 📌 **[B.Sc. Dissertation](https://github.com/AFLucas-UOM/Accurate-Name-Extraction): Accurate Name Extraction from News Graphics** – AI model for named entity recognition in news media 
+- 📌 **[B.Sc. Dissertation](https://github.com/AFLucas-UOM/Accurate-Name-Extraction): Accurate Name Extraction from News Graphics** – AI model for named entity recognition in news media [Work in Progress]
 
 ## 📊 GitHub Stats  
 <p align="center">
