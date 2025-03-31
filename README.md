@@ -17,13 +17,6 @@ I’m a **third-year BSc ICT student** at the [University of Malta](https://www.
 🔬 Passionate about **computer vision, AI-driven applications, and data science**, I love solving real-world problems using AI. My work spans **machine learning models, OCR, NLP, and AI-driven web applications**.  
 
 ## 📫 How to Reach Me  
-
-<p align="center">
-  <a href="https://aflucas.com" target="_blank">
-    <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-aflucas.com-blueviolet?style=for-the-badge&logo=windowsterminal&logoColor=white" alt="Portfolio">
-  </a>
-</p>
-
 <p align="center">
     <a href="mailto:andrealucasmalta@gmail.com">
         <img src="https://img.shields.io/badge/Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
@@ -44,6 +37,12 @@ I’m a **third-year BSc ICT student** at the [University of Malta](https://www.
     <a href="https://www.threads.net/@aflucas26">
         <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads">
     </a>
+</p>
+
+<p align="center">
+  <a href="https://aflucas.com" target="_blank">
+    <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-aflucas.com-blueviolet?style=for-the-badge&logo=windowsterminal&logoColor=white" alt="Portfolio">
+  </a>
 </p>
 
 ## 🧑🏻‍💻 Tech Stack & Expertise  
@@ -74,4 +73,4 @@ When I'm not working on AI projects, you'll probably find me:
 - 🎶 **Playing the piano, hoping my neighbours don’t mind**  
 - 💸 **Convincing myself that **"just one more"** vinyl won’t hurt my wallet**
 
-Basically, if I’m not coding, I’m either making noise, spending money, eating (or sleeping 😴).  
+Basically, if I’m not coding, I’m either making noise, spending money (or sleeping 😴).  
