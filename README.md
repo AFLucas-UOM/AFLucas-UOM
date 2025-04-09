@@ -12,7 +12,7 @@
 
 ## 🙋🏻‍♂️ About Me  
 
-I’m a Research Support Assistant & **third-year B.Sc. ICT student** at the [University of Malta](https://www.um.edu.mt/), specialising in **Artificial Intelligence** and **Computer Vision**.  
+I’m a Research Support Assistant & **third-year B.Sc. ICT student** at the [University of Malta](https://www.um.edu.mt/), specialising in **Artificial Intelligence**.  
 
 🔬 Passionate about **computer vision, AI-driven applications, and data science**, I love solving real-world problems using AI. My work spans **machine learning models, OCR, NLP, and AI-driven web applications**.  
 
