@@ -60,7 +60,7 @@ I’m a Research Support Assistant & **third-year B.Sc. ICT student** at the [Un
 ## 🚀 Recent Projects / Work in Progress    
 - 📌 **[Byte Bite-AI](https://github.com/AFLucas-UOM/Byte-Bite-AI)** – A healthy eating assistant for students  
 - 📌 **[Storyboard-AI](https://github.com/AFLucas-UOM/Storyboard-AI)** – An interactive AI storytelling tool  
-- 📌 **[B.Sc. Dissertation](https://github.com/AFLucas-UOM/Accurate-Name-Extraction): Accurate Name Extraction from News Graphics** – AI model for named entity recognition in news media [Work in Progress]
+- 📌 **[B.Sc. Dissertation](https://github.com/AFLucas-UOM/Accurate-Name-Extraction): Accurate Name Extraction from News Graphics** – AI model for named entity recognition in news media
 
 ## 📊 GitHub Stats  
 
