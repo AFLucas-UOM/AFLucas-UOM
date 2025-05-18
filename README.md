@@ -21,28 +21,30 @@ I’m a Research Support Assistant & **third-year B.Sc. ICT student** at the [Un
 
 🔬 Passionate about **computer vision, AI-driven applications, and data science**, I love solving real-world problems using AI. My work spans **machine learning models, OCR, NLP, and AI-driven web applications**.  
 
-## 📫 How to Reach Me  
+## 📫 How to Reach Me
+
 <p align="center">
-    <a href="mailto:andrealucasmalta@gmail.com">
-        <img src="https://img.shields.io/badge/Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-    </a>
-    <a href="mailto:andrea.f.lucas.22@um.edu.mt">
-        <img src="https://img.shields.io/badge/University%20Email-andrea.f.lucas.22@um.edu.mt-red?style=for-the-badge&logo=gmail&logoColor=white" alt="University Email">
-    </a>
-    <br><br>
-    <a href="https://www.instagram.com/aflucas26/">
-        <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
-    </a>
-    <a href="https://www.facebook.com/andrea.lucas.35175">
-        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
-    </a>
-    <a href="https://x.com/AFLucas26">
-        <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
-    </a>
-    <a href="https://www.threads.net/@aflucas26">
-        <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads">
-    </a>
+  <a href="mailto:andrealucasmalta@gmail.com">
+    <img src="https://img.shields.io/badge/Personal Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email">
+  </a>
+  <a href="mailto:andrea.f.lucas.22@um.edu.mt">
+    <img src="https://img.shields.io/badge/University Email-andrea.f.lucas.22@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white" alt="University Email">
+  </a>
+  <br><br>
+  <a href="https://www.instagram.com/aflucas26/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+  <a href="https://www.facebook.com/andrea.lucas.35175">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
+  </a>
+  <a href="https://x.com/AFLucas26">
+    <img src="https://img.shields.io/badge/X (Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
+  </a>
+  <a href="https://www.threads.net/@aflucas26">
+    <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads">
+  </a>
 </p>
+
 
 <p align="center">
   <a href="https://aflucas.com" target="_blank">
@@ -71,16 +73,16 @@ I’m a Research Support Assistant & **third-year B.Sc. ICT student** at the [Un
 </p>
 
 <p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AFLucas-UOM&theme=vue-dark" alt="GitHub Streak">
+</p>
+
+<p align="center">
   <a href="https://github.com/AFLucas-UOM">
     <img src="https://github-readme-stats.vercel.app/api?username=AFLucas-UOM&show_icons=true&theme=vue-dark" height="180">
   </a>
   <a href="https://github.com/AFLucas-UOM">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFLucas-UOM&layout=compact&theme=vue-dark" height="180">
   </a>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AFLucas-UOM&theme=vue-dark" alt="GitHub Streak">
 </p>
 
 ## 🤪 Fun Facts About Me 
