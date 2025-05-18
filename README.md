@@ -1,7 +1,7 @@
 <h1 align="center">
   Hey there, I'm Andrea Filiberto Lucas <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 </h1>
-
+11
 <p align="center">
   <img src="https://img.shields.io/badge/Artificial%20Intelligence%20(AI)-%23008DFF.svg?style=for-the-badge&logo=robot-framework&logoColor=white">
   <img src="https://img.shields.io/badge/Computer%20Vision%20(CV)-%234285F4.svg?style=for-the-badge&logo=opencv&logoColor=white">
