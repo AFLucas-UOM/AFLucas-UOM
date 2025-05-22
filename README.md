@@ -65,12 +65,12 @@ I’m a Research Support Assistant & **third-year B.Sc. ICT student** at the [Un
 - 📌 **[B.Sc. Dissertation](https://github.com/AFLucas-UOM/Accurate-Name-Extraction): Accurate Name Extraction from News Graphics** – AI model for named entity recognition in news media
 
 ## 📊 GitHub Stats  
-
+<!--
 <p align="center">
   <a href="https://user-badge.committers.top/malta/AFLucas-UOM">
     <img src="https://user-badge.committers.top/malta/AFLucas-UOM.svg" alt="committers.top badge">
   </a>
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AFLucas-UOM&theme=vue-dark" alt="GitHub Streak">
