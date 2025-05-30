@@ -27,12 +27,12 @@ class AboutMe:
         self.nickname = "Fili"
         self.role = "Research Support Assistant & Third-Year B.Sc. ICT (AI) Student"
         self.university = "University of Malta (UoM)"
-        self.interests = ["CV", "GenAI", "DL", "PWA", "Data Science"]
+        self.interests = ["AI", "CV", "DL", "AIED"]
         self.current_focus = "Wrapping up my dissertation on name extraction from news video graphics "
         
     def get_passions(self):
         return {
-            "tech": ["Deep Learning", "CV", "OCR", "NLP", "Progressive Web Apps"],
+            "tech": ["DL", "CV", "OD", "GenAI", "OCR", "NLP", "PWA", "Data Science", "Media Analysis"],
             "life": ["Volunteering", "Piano", "Vinyl Collection", "Building PCs", "Sleeping"]
         }
 ```
