@@ -171,14 +171,6 @@ class AboutMe:
   </a>
 </p>
 
-## 🤪 Fun Facts About Me 
-When I'm not working on AI projects, you'll probably find me:
-- 🙏 **Volunteering at [ACTS Teens Malta](https://www.acts.mt/)**  
-- 🎶 **Playing the piano, hoping my neighbours don’t mind**  
-- 💸 **Convincing myself that **"just one more"** vinyl won’t hurt my wallet**
-
-Basically, if I’m not coding, I’m either making noise, spending money (or sleeping 😴).  
-
 ---
 
 <div align="center">
