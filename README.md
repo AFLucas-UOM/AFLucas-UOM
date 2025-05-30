@@ -39,34 +39,19 @@ class AboutMe:
 
 ## 📫 How to Reach Me
 
-<p align="center">
-  <a href="mailto:andrealucasmalta@gmail.com">
-    <img src="https://img.shields.io/badge/Personal Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email">
-  </a>
-  <a href="mailto:andrea.f.lucas.22@um.edu.mt">
-    <img src="https://img.shields.io/badge/University Email-andrea.f.lucas.22@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white" alt="University Email">
-  </a>
-  <br><br>
-  <a href="https://www.instagram.com/aflucas26/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
-  </a>
-  <a href="https://www.facebook.com/andrea.lucas.35175">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
-  </a>
-  <a href="https://x.com/AFLucas26">
-    <img src="https://img.shields.io/badge/X (Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="X">
-  </a>
-  <a href="https://www.threads.net/@aflucas26">
-    <img src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads">
-  </a>
-</p>
+<div align="center">
 
+[![Personal Email](https://img.shields.io/badge/Personal%20Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrealucasmalta@gmail.com)
+[![University Email](https://img.shields.io/badge/University%20Email-andrea.f.lucas.22@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrea.f.lucas.22@um.edu.mt)
 
-<p align="center">
-  <a href="https://aflucas.com" target="_blank">
-    <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-aflucas.com-blueviolet?style=for-the-badge&logo=windowsterminal&logoColor=white" alt="Portfolio">
-  </a>
-</p>
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aflucas26/)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/andrea.lucas.35175)
+[![X](https://img.shields.io/badge/X%20(Twitter)-000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AFLucas26)
+[![Threads](https://img.shields.io/badge/Threads-000000.svg?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/@aflucas26)
+
+[![Visit My Portfolio](https://img.shields.io/badge/Visit%20My%20Portfolio-aflucas.com-blueviolet?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://aflucas.com)
+
+</div>
 
 ## 🧑🏻‍💻 Tech Stack & Expertise
 
@@ -172,10 +157,3 @@ class AboutMe:
 </div>
 
 ---
-
-<div align="center">
-
-### 🔗 Quick Links  
-[🌐 Portfolio](https://aflucas.com) &nbsp;|&nbsp; [✉️ Email](mailto:andrealucasmalta@gmail.com) &nbsp;|&nbsp; [📁 Projects](https://github.com/AFLucas-UOM?tab=repositories)
-
-</div>
