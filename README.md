@@ -1,5 +1,5 @@
 <h1 align="center">
-  Hey there, I'm Andrea Filiberto Lucas (aka Fili) <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
+  Hi, I'm Andrea Filiberto Lucas <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> — aka Fili
 </h1>
 
 <div align="center">
@@ -23,16 +23,12 @@
 class AboutMe:
     def __init__(self):
         self.name = "Andrea Filiberto Lucas"
-        self.nickname = "Fili"
-        self.role = "Research Support Assistant & Third-Year B.Sc. ICT (AI) Student"
-        self.university = "University of Malta (UoM)"
+        self.role = "Research Support Assistant & B.Sc. ICT (AI) Student @ UoM"
+        self.focus = "Dissertation on name extraction from news video graphics"
         self.interests = ["AI", "CV", "DL", "AIED"]
-        self.current_focus = "Wrapping up my dissertation on name extraction from news video graphics "
-        
-    def get_passions(self):
-        return {
-            "tech": ["DL", "CV", "OD", "GenAI", "OCR", "NLP", "PWA", "Data Science", "Media Analysis"],
-            "life": ["Volunteering", "Piano", "Vinyl Collection", "Building PCs", "Sleeping"]
+        self.passions = {
+            "tech": ["GenAI", "OCR", "Media Analysis", "PWA"],
+            "life": ["Piano", "Vinyl", "Volunteering", "PC Building"]
         }
 ```
 
