@@ -149,3 +149,16 @@ class AboutMe:
 
 <!-- ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AFLucas-UOM&theme=github-compact) -->
 </div>
+
+<hr/>
+
+<p align="center">
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=flat-square&logo=creativecommons" alt="License: CC BY 4.0"/>
+  </a>
+  <br/>
+  <sub>
+    This README is licensed under <a href="./LICENSE">CC BY 4.0</a>.  
+    Attribution appreciated: <a href="https://github.com/AFLucas-UOM">AFLucas-UOM</a>
+  </sub>
+</p>
