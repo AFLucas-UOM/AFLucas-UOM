@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Research+Support+Assistant+@+UoM;B.Sc.+ICT+(AI)+Student+@+UoM;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Research+Support+Officer+@+UoM;B.Sc.+ICT+(AI)+Graduate+@+UoM;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
   </a>
 </p>
 
@@ -23,7 +23,7 @@
 class AboutMe:
     def __init__(self):
         self.name = "Andrea Filiberto Lucas"
-        self.role = "Research Support Assistant & B.Sc. ICT (AI) Student @ UoM"
+        self.role = "Research Support Officer & B.Sc. ICT (AI) Graduate @ UoM"
         self.focus = "Dissertation on name extraction from news video graphics"
         self.interests = ["AI", "CV", "DL", "AIED"]
         self.passions = {
@@ -37,14 +37,14 @@ class AboutMe:
 <div align="center">
 
 [![Personal Email](https://img.shields.io/badge/Personal%20Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrealucasmalta@gmail.com)
-[![University Email](https://img.shields.io/badge/University%20Email-andrea.f.lucas.22@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrea.f.lucas.22@um.edu.mt)
+[![UM-Student Email](https://img.shields.io/badge/University%20Email-andrea.f.lucas.22@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrea.f.lucas.22@um.edu.mt)
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aflucas26/)
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/andrea.lucas.35175)
 [![X](https://img.shields.io/badge/X%20(Twitter)-000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AFLucas26)
 [![Threads](https://img.shields.io/badge/Threads-000000.svg?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/@aflucas26)
 
-[![Visit My Portfolio](https://img.shields.io/badge/Visit%20My%20Portfolio-aflucas.com-blueviolet?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://aflucas.com)
+[![My Portfolio](https://img.shields.io/badge/Visit%20My%20Portfolio-aflucas.com-blueviolet?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://aflucas.com)
 
 </div>
 
@@ -133,7 +133,7 @@ class AboutMe:
 </details>
 
 ## 🚀 Recent Projects  
-- 📌 **[B.Sc. Dissertation](https://github.com/AFLucas-UOM/Accurate-Name-Extraction): Accurate Name Extraction from News Graphics** – AI model for named entity recognition in news
+- 📌 **[B.Sc. Dissertation](https://github.com/AFLucas-UOM/Accurate-Name-Extraction): Accurate Name Extraction from News Graphics** – Modular pipline for named entity recognition in news
 - 📌 **[Byte Bite-AI](https://github.com/AFLucas-UOM/Byte-Bite-AI)** – A healthy eating assistant for students  
 - 📌 **[Storyboard-AI](https://github.com/AFLucas-UOM/Storyboard-AI)** – An interactive AI storytelling tool  
 
@@ -143,11 +143,10 @@ class AboutMe:
 
 [![Committers Badge](https://user-badge.committers.top/malta/AFLucas-UOM.svg)](https://user-badge.committers.top/malta/AFLucas-UOM)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AFLucas-UOM&theme=vue-dark&hide_border=true)](https://github.com/AFLucas-UOM)
+[![GitHub Streak](https://streak-stats.demolab.com?user=AFLucas-UOM&theme=vue-dark&hide_border=true&date_format=j%20M%5B%20Y%5D&hide_total_contributions=true)](https://git.io/streak-stats)
 
 <img src="https://github-readme-stats.vercel.app/api?username=AFLucas-UOM&show_icons=true&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true" height="180">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFLucas-UOM&layout=compact&theme=vue-dark&hide_border=true" height="180">
 
 <!-- ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AFLucas-UOM&theme=github-compact) -->
-
 </div>
