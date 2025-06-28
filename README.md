@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Research+Support+Officer+@+UoM;B.Sc.+ICT+(AI)+Graduate+@+UoM;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Research+Support+Officer+@+UoM;B.Sc.+ICT+(AI)+Graduand+@+UoM;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
   </a>
 </p>
 
@@ -23,7 +23,7 @@
 class AboutMe:
     def __init__(self):
         self.name = "Andrea Filiberto Lucas"
-        self.role = "Research Support Officer & B.Sc. ICT (AI) Graduate @ UoM"
+        self.role = "Research Support Officer & B.Sc. ICT (AI) Graduand @ UoM"
         self.focus = "Dissertation on name extraction from news video graphics"
         self.interests = ["AI", "CV", "DL", "AIED"]
         self.passions = {
