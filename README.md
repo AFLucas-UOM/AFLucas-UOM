@@ -134,10 +134,17 @@ class AboutMe:
 
 </details>
 
-## 🚀 Recent Projects  
-- 📌 **[B.Sc. Dissertation](https://github.com/AFLucas-UOM/Accurate-Name-Extraction): Accurate Name Extraction from News Graphics** –🏅*Best FYP in Dept. AI, 2025*
-- 📌 **[Byte Bite-AI](https://github.com/AFLucas-UOM/Byte-Bite-AI)** – A healthy eating assistant for students  
-- 📌 **[Storyboard-AI](https://github.com/AFLucas-UOM/Storyboard-AI)** – An interactive AI storytelling tool  
+## 🚀 Recent Projects
+
+- 📌 **[Accurate Name Extraction from News Graphics](https://github.com/AFLucas-UOM/Accurate-Name-Extraction)**  
+*B.Sc. Dissertation • 🏆 Best Final Year Project in Dept. of AI, 2025*  
+Advanced computer vision system for extracting and identifying names from news broadcast graphics using machine learning techniques.
+
+- 📌 **[Byte Bite-AI](https://github.com/AFLucas-UOM/Byte-Bite-AI)** - *Intelligent Nutrition Assistant*  
+AI-powered healthy eating companion designed specifically for UM students, providing personalised meal recommendations and nutritional guidance.
+
+- 📌 **[Storyboard-AI](https://github.com/AFLucas-UOM/Storyboard-AI)** - *Interactive Storytelling Platform*  
+Creative AI tool that generates dynamic, interactive narratives with user-driven plot development and character customisation.
 
 ## 📊 GitHub Analytics
 
