@@ -136,8 +136,7 @@ class AboutMe:
 
 ## 🚀 Recent Projects
 
-- 📌 **[Accurate Name Extraction from News Graphics](https://github.com/AFLucas-UOM/Accurate-Name-Extraction)**  
-*B.Sc. Dissertation • 🏆 Best Final Year Project in Dept. of AI, 2025*  
+- 📌 **[Accurate Name Extraction from News Graphics](https://github.com/AFLucas-UOM/Accurate-Name-Extraction)** - *B.Sc. IT (Hons.) (AI) Dissertation • 🏆 Best FYP in Dept. of AI, 2025*  
 Advanced computer vision system for extracting and identifying names from news broadcast graphics using machine learning techniques.
 
 - 📌 **[Byte Bite-AI](https://github.com/AFLucas-UOM/Byte-Bite-AI)** - *Intelligent Nutrition Assistant*  
