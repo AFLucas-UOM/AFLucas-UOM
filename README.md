@@ -135,7 +135,7 @@ class AboutMe:
 </details>
 
 ## 🚀 Recent Projects  
-- 📌 **[B.Sc. Dissertation](https://github.com/AFLucas-UOM/Accurate-Name-Extraction): Accurate Name Extraction from News Graphics** – Modular pipline for named entity recognition in news
+- 📌 **[B.Sc. Dissertation](https://github.com/AFLucas-UOM/Accurate-Name-Extraction): Accurate Name Extraction from News Graphics** – &nbsp;🏅*Best FYP in Dept. AI, 2025*
 - 📌 **[Byte Bite-AI](https://github.com/AFLucas-UOM/Byte-Bite-AI)** – A healthy eating assistant for students  
 - 📌 **[Storyboard-AI](https://github.com/AFLucas-UOM/Storyboard-AI)** – An interactive AI storytelling tool  
 
