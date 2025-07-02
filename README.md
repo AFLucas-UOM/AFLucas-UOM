@@ -37,7 +37,7 @@ class AboutMe:
 <div align="center">
 
 [![Personal Email](https://img.shields.io/badge/Personal%20Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrealucasmalta@gmail.com)
-[![UM-Student Email](https://img.shields.io/badge/University%20Email-andrea.f.lucas.22@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrea.f.lucas.22@um.edu.mt)
+[![UM-Staff Email](https://img.shields.io/badge/University%20Email-andrea.f.lucas@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrea.f.lucas.22@um.edu.mt)
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aflucas26/)
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/andrea.lucas.35175)
@@ -55,22 +55,23 @@ class AboutMe:
 
 ### Programming Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Java](https://custom-icon-badges.demolab.com/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![C#](https://custom-icon-badges.demolab.com/badge/C%23-239120?style=for-the-badge&logo=cshrp&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![Prolog](https://img.shields.io/badge/Prolog-8B0000?style=for-the-badge&logo=none&logoColor=white)
+![Prolog](https://custom-icon-badges.demolab.com/badge/Prolog-8B0000?style=for-the-badge&logo=prolog&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
+
 ### Web Technologies & Frameworks
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![CSS3](https://custom-icon-badges.demolab.com/badge/CSS-1572B6?style=for-the-badge&logo=css-1&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
@@ -91,6 +92,7 @@ class AboutMe:
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![Roboflow](https://img.shields.io/badge/Roboflow-8A2BE2?style=for-the-badge&logo=roboflow&logoColor=white)
+![Ollama](https://custom-icon-badges.demolab.com/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Tesseract OCR](https://img.shields.io/badge/Tesseract-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
@@ -128,7 +130,7 @@ class AboutMe:
 
 ### Operating Systems
 ![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?style=for-the-badge&logo=windows-11&logoColor=white)
 
 </details>
 
