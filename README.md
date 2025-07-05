@@ -153,7 +153,7 @@ Creative AI tool that generates dynamic, interactive narratives with user-driven
 ![Profile Views](https://komarev.com/ghpvc/?username=AFLucas-UOM&color=blue)
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=AFLucas-UOM&theme=vue-dark&hide_border=true&date_format=j%20M%5B%20Y%5D&hide_total_contributions=true)](https://git.io/streak-stats) -->
 
-<img src="https://github-readme-stats.vercel.app/api?username=AFLucas-UOM&show_icons=true&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true" height="180">
+<!-- <img src="https://github-readme-stats.vercel.app/api?username=AFLucas-UOM&show_icons=true&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true" height="180"> -->
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFLucas-UOM&layout=compact&theme=vue-dark&hide_border=true" height="180">
 
 <!-- ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AFLucas-UOM&theme=github-compact) -->
