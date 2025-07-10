@@ -149,12 +149,26 @@ Creative AI tool that generates dynamic, interactive narratives with user-driven
 
 <div align="center">
 
-[![Committers Badge](https://user-badge.committers.top/malta/AFLucas-UOM.svg)](https://user-badge.committers.top/malta/AFLucas-UOM)
-![Profile Views](https://komarev.com/ghpvc/?username=AFLucas-UOM&color=blue)
-<!-- [![GitHub Streak](https://streak-stats.demolab.com?user=AFLucas-UOM&theme=vue-dark&hide_border=true&date_format=j%20M%5B%20Y%5D&hide_total_contributions=true)](https://git.io/streak-stats) -->
+<!-- 🏆 Badges and Stats -->
+<a href="https://user-badge.committers.top/malta/AFLucas-UOM">
+  <img src="https://user-badge.committers.top/malta/AFLucas-UOM.svg" alt="Committers Badge"/>
+</a>
+<img src="https://komarev.com/ghpvc/?username=AFLucas-UOM&color=blue" alt="Profile Views"/>
 
-<!-- <img src="https://github-readme-stats.vercel.app/api?username=AFLucas-UOM&show_icons=true&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true" height="180"> -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFLucas-UOM&layout=compact&theme=vue-dark&hide_border=true" height="180">
+<br><br>
+
+<!-- 🔥 GitHub Streak -->
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com?user=AFLucas-UOM&theme=vue-dark&hide_border=true&date_format=j%20M%5B%20Y%5D&hide_total_contributions=true" alt="GitHub Streak"/>
+</a>
+
+<br><br>
+
+<!-- 📊 GitHub Stats -->
+<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+  <img src="https://github-readme-stats.vercel.app/api?username=AFLucas-UOM&show_icons=true&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFLucas-UOM&layout=compact&theme=vue-dark&hide_border=true" height="180" alt="Top Languages"/>
+</div>
 
 <!-- ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AFLucas-UOM&theme=github-compact) -->
 </div>
