@@ -157,10 +157,10 @@ Creative AI tool that generates dynamic, interactive narratives with user-driven
 
 <br><br>
 
-<!-- 🔥 GitHub Streak -->
+<!-- 🔥 GitHub Streak
 <a href="https://git.io/streak-stats">
   <img src="https://streak-stats.demolab.com?user=AFLucas-UOM&theme=vue-dark&hide_border=true&date_format=j%20M%5B%20Y%5D&hide_total_contributions=true" alt="GitHub Streak"/>
-</a>
+</a> -->
 
 <br><br>
 
