@@ -1,5 +1,3 @@
-
-
 <h1 align="center">
   Hi, I'm Andrea Filiberto Lucas <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> - aka Fili
 </h1>
