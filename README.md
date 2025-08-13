@@ -23,7 +23,7 @@
 class AboutMe:
     def __init__(self):
         self.name = "Andrea Filiberto Lucas"
-        self.role = "Research Support Officer & B.Sc. ICT (Hons.) (AI) Graduand @ UoM"
+        self.role = "Research Support Officer I & B.Sc. ICT (Hons.) (AI) Graduand @ UoM"
         self.focus = "Dissertation on name extraction from news video graphics"
         self.interests = ["AI", "CV", "DL", "AIED"]
         self.passions = {
