@@ -1,22 +1,12 @@
-
 <h1 align="center">
   Hi, I'm Andrea Filiberto Lucas <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> - aka Fili
 </h1>
-
-<div align="center">
-
-[![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence%20(AI)-%23008DFF.svg?style=for-the-badge&logo=robot-framework&logoColor=white)](https://aflucas.com)
-[![Computer Vision](https://img.shields.io/badge/Computer%20Vision%20(CV)-%234285F4.svg?style=for-the-badge&logo=opencv&logoColor=white)](https://aflucas.com)
-[![Machine Learning](https://img.shields.io/badge/Machine%20Learning%20(ML)-%23FF6F00.svg?style=for-the-badge&logo=python&logoColor=white)](https://aflucas.com)
-[![AI in Education](https://img.shields.io/badge/AI%20in%20Education%20(AIED)-%239C27B0.svg?style=for-the-badge&logo=bookstack&logoColor=white)](https://aflucas.com)
-
-</div>
 
 ## 🙋🏻‍♂️ About Me  
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Research+Support+Officer+I+@+UoM;B.Sc.+ICT+(Hons.)+(AI)+Graduand+@+UoM;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Research+Support+Officer+I+@+UoM;M.Sc.+(Hons.)+AI+Student;B.Sc.+ICT+(Hons.)+(AI)+Graduate;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
   </a>
 </p>
 
@@ -24,13 +14,31 @@
 class AboutMe:
     def __init__(self):
         self.name = "Andrea Filiberto Lucas"
-        self.role = "Research Support Officer I & B.Sc. ICT (Hons.) (AI) Graduand @ UoM"
-        self.focus = "Dissertation on name extraction from news video graphics"
-        self.interests = ["AI", "CV", "DL", "AIED"]
-        self.passions = {
-            "tech": ["GenAI", "OCR", "Media Analysis", "PWA"],
-            "life": ["Piano", "Vinyl", "Volunteering", "PC Building"]
+        self.age = 21  # as of 2025
+        self.location = "Malta, EU"
+        self.roles = [
+            "Research Support Officer I",
+            "M.Sc. (Hons.) AI Student",
+            "B.Sc. ICT (Hons.) (AI) Graduate"
+        ]
+        self.affiliation = "University of Malta (UoM)"
+        self.dissertations = {
+            "B.Sc.": "Accurate Name Extraction from News Video Graphics",
+            "M.Sc.": "Loading..."
         }
+        self.interests = ["AI", "Computer Vision", "Deep Learning", :Progressive Web Apss", "AI in Education"]
+      self.passions = {
+          "creativity": [
+              "Playing Piano",
+              "Vinyl Collecting",
+              "Digital Design",
+              "PC Building"
+          ],
+          "community": [
+              "Volunteering",
+              "Knowledge Sharing"
+          ]
+      }
 ```
 
 ## 📫 How to Reach Me
@@ -38,14 +46,14 @@ class AboutMe:
 <div align="center">
 
 [![Personal Email](https://img.shields.io/badge/Personal%20Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrealucasmalta@gmail.com)
-[![UM-Staff Email](https://img.shields.io/badge/University%20Email-andrea.f.lucas@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrea.f.lucas.22@um.edu.mt)
+[![UM-Staff Email](https://img.shields.io/badge/University%20Email-andrea.f.lucas@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrea.f.lucas@um.edu.mt)
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aflucas26/)
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/andrea.lucas.35175)
 [![X](https://img.shields.io/badge/X%20(Twitter)-000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AFLucas26)
 [![Threads](https://img.shields.io/badge/Threads-000000.svg?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/@aflucas26)
 
-[![My Portfolio](https://img.shields.io/badge/Visit%20My%20Portfolio-aflucas.com-blueviolet?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://aflucas.com)
+[![My Portfolio](https://img.shields.io/badge/My%20Portfolio-aflucas.com-blueviolet?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://aflucas.com)
 
 </div>
 
@@ -146,24 +154,26 @@ AI-powered healthy eating companion designed specifically for UM students, provi
 - 📌 **[Storyboard-AI](https://github.com/AFLucas-UOM/Storyboard-AI)** - *Interactive Storytelling Platform*  
 Creative AI tool that generates dynamic, interactive narratives with user-driven plot development and character customisation.
 
-## 📊 GitHub Analytics
+## 📊 GitHub Analytics  
 
 <div align="center">
 
-<!-- 🏆 Badges and Stats -->
+<!-- 🏆 Badges and Profile Stats -->
 <a href="https://user-badge.committers.top/malta/AFLucas-UOM">
   <img src="https://user-badge.committers.top/malta/AFLucas-UOM.svg" alt="Committers Badge"/>
 </a>
-<img src="https://komarev.com/ghpvc/?username=AFLucas-UOM&color=blue" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=AFLucas-UOM&label=Profile%20Views&color=FF6F61&style=flat" alt="Profile Views"/>
+<img src="https://img.shields.io/github/followers/AFLucas-UOM?label=Followers&style=flat&color=4DB6AC" alt="GitHub Followers"/>
+<img src="https://img.shields.io/github/stars/AFLucas-UOM?label=Stars&style=flat&color=9575CD" alt="GitHub Stars"/>
 
 <br><br>
 
-<!-- Github Streak
+<!-- 🔥 Streak Stats -->
 <a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=AFLucas-UOM&theme=vue-dark&hide_border=true&date_format=j%20M%5B%20Y%5D&hide_total_contributions=true" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=AFLucas-UOM&theme=vue-dark&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
 </a>
 
-<br><br> -->
+<br><br>
 
 <!-- 📊 GitHub Stats -->
 <div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
@@ -171,9 +181,13 @@ Creative AI tool that generates dynamic, interactive narratives with user-driven
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFLucas-UOM&layout=compact&theme=vue-dark&hide_border=true" height="180" alt="Top Languages"/>
 </div>
 
-<!-- ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AFLucas-UOM&theme=github-compact) -->
-</div>
+<br>
 
+<!-- 📈 Contribution Graph
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AFLucas-UOM&theme=vue-dark&hide_border=true&bg_color=0d1117&color=2196F3&line=2196F3&point=ffffff" alt="Contribution Graph"/>
+
+</div>
+-->
 <hr/>
 
 <p align="center">
