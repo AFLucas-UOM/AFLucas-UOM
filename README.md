@@ -26,7 +26,7 @@ class AboutMe:
             "B.Sc.": "Accurate Name Extraction from News Video Graphics",
             "M.Sc.": "Loading..."
         }
-        self.interests = ["AI", "Computer Vision", "Deep Learning", :Progressive Web Apss", "AI in Education"]
+        self.interests = ["AI", "Computer Vision", "Deep Learning", "Progressive Web Apps", "AIED"]
       self.passions = {
           "creativity": [
               "Playing Piano",
