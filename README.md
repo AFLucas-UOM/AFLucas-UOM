@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Research+Support+Officer+I+@+UoM;M.Sc.+in+AI+Student;B.Sc.+ICT+(Hons.)+(AI)+Graduate;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Research+Support+Officer+I+@+UM;M.Sc.+in+AI+Student;B.Sc.+ICT+(Hons.)+(AI)+Graduate;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
   </a>
 </p>
 
@@ -21,7 +21,7 @@ class AboutMe:
             "M.Sc. in AI Student",
             "B.Sc. ICT (Hons.) (AI) Graduate"
         ]
-        self.affiliation = "University of Malta (UoM)"
+        self.affiliation = "University of Malta (UM)"
         self.dissertations = {
             "B.Sc.": "Accurate Name Extraction from News Video Graphics",
             "M.Sc.": "Loading..."
