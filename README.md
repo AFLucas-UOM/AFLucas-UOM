@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Research+Support+Officer+I+@+UM;M.Sc.+in+AI+Student;B.Sc.+IT+(Hons)+(Melit.)+Graduate;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Research+Support+Officer+I+@+UM;M.Sc.+in+AI+Student;B.Sc.+IT+(Hons.)+(Melit)+Graduate;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
   </a>
 </p>
 
@@ -14,31 +14,43 @@
 class AboutMe:
     def __init__(self):
         self.name = "Andrea Filiberto Lucas"
+        self.knownas = "Fili"
         self.age = 21  # as of 2025
         self.location = "Malta, EU"
+
         self.roles = [
-            "Research Support Officer I",
-            "M.Sc. in AI Student",
-            "B.Sc. ICT (Hons.) (AI) Graduate"
+            "Research Support Officer I (Dept. of AI, UM)",
+            "M.Sc. Artificial Intelligence Student",
+            "B.Sc. IT (Hons.) (Melit) in Artificial Intelligence Graduate"
         ]
-        self.affiliation = "University of Malta (UM)"
+
+        self.affiliation = "University of Malta"
+
         self.dissertations = {
             "B.Sc.": "Accurate Name Extraction from News Video Graphics",
-            "M.Sc.": "Loading..."
+            "M.Sc.": "Loading..."  # to be updated once confirmed
         }
-        self.interests = ["AI", "Computer Vision", "Deep Learning", "Progressive Web Apps", "AIED"]
-      self.passions = {
-          "creativity": [
-              "Playing Piano",
-              "Vinyl Collecting",
-              "Digital Design",
-              "PC Building"
-          ],
-          "community": [
-              "Volunteering",
-              "Knowledge Sharing"
-          ]
-      }
+
+        self.interests = [
+            "Artificial Intelligence (AI)",
+            "Computer Vision (CV)",
+            "AI for Education (AIED)",
+            "Progressive Web Apps (PWA)"
+        ]
+
+        self.passions = {
+            "creativity": [
+                "Playing Piano",
+                "Vinyl Collecting",
+                "Digital Design",
+                "PC Building"
+            ],
+            "community": [
+                "Volunteering",
+                "Knowledge Sharing",
+                "Organiser at GDG-Malta (Google Developer Groups)"
+            ]
+        }
 ```
 
 ## 📫 How to Reach Me
