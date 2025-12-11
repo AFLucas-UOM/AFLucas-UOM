@@ -181,14 +181,14 @@ Creative AI tool that generates dynamic, interactive narratives with user-driven
 
 <br><br>
 
-<!-- 🔥 Streak Stats -->
+<!-- 🔥 Streak Stats --
 <a href="https://git.io/streak-stats">
   <img src="https://streak-stats.demolab.com?user=AFLucas-UOM&theme=vue-dark&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
 </a>
 
 <br><br>
 
-<!-- 📊 GitHub Stats -->
+<!-- 📊 GitHub Stats --
 <div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
   <img src="https://github-readme-stats.vercel.app/api?username=AFLucas-UOM&show_icons=true&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFLucas-UOM&layout=compact&theme=vue-dark&hide_border=true" height="180" alt="Top Languages"/>
