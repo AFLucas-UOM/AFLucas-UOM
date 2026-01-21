@@ -19,7 +19,7 @@ class AboutMe:
         self.location = "Malta, EU"
 
         self.roles = [
-            "Research Support Officer I (Dept. of AI, UM)",
+            "Research Support Officer I (Dept. of AI)",
             "M.Sc. Artificial Intelligence Student",
             "B.Sc. IT (Hons.) (Melit) in Artificial Intelligence Graduate"
         ]
