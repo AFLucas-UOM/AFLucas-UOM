@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Research+Support+Officer+I+@+UM;M.Sc.+in+AI+Student;B.Sc.+IT+(Hons.)+(Melit)+Graduate;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Research+Support+Officer+@+UM;MSc+in+AI+Student+@+UM;BSc+IT+(Hons.)+(Melit)+Graduate;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
   </a>
 </p>
 
@@ -15,7 +15,7 @@
 class AboutMe:
     def __init__(self):
         self.name = "Andrea Filiberto Lucas"
-        self.knownas = "Fili"
+        self.alias = "Fili"
         self.age = 21  # as of 2025
         self.location = "Malta, EU"
 
@@ -32,11 +32,11 @@ class AboutMe:
             "M.Sc.": "Loading..."  # to be updated once confirmed
         }
 
-        self.interests = [
-            "Artificial Intelligence (AI)",
+        self.research_interests = [
             "Computer Vision (CV)",
-            "AI for Education (AIED)",
-            "Progressive Web Apps (PWA)"
+            "Multimodal AI Systems",
+            "Applied Machine Learning (AML)",
+            "AI for Education (AIED)"
         ]
 
         self.passions = {
@@ -49,7 +49,7 @@ class AboutMe:
             "community": [
                 "Volunteering",
                 "Knowledge Sharing",
-                "Organiser at GDG-Malta (Google Developer Groups)"
+                "Organiser at GDG Malta (Google Developer Groups)"
             ]
         }
 ```
@@ -90,7 +90,6 @@ class AboutMe:
 ![Prolog](https://custom-icon-badges.demolab.com/badge/Prolog-8B0000?style=for-the-badge&logo=prolog&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=sqlite&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
 
 ### Web Technologies & Frameworks
@@ -157,17 +156,6 @@ class AboutMe:
 ![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?style=for-the-badge&logo=windows-11&logoColor=white)
 
 </details>
-
-## 🚀 Recent Projects
-
-- 📌 **[Accurate Name Extraction from News Graphics](https://github.com/AFLucas-UOM/Accurate-Name-Extraction)** - *B.Sc. IT (Hons.) (AI) Dissertation | 🏆 Best FYP in Dept. of AI, 2025*  
-  Advanced computer vision system for extracting and identifying names from news broadcast graphics using machine learning techniques.
-
-- 📌 **[Byte Bite-AI](https://github.com/AFLucas-UOM/Byte-Bite-AI)** - *Intelligent Nutrition Assistant*  
-AI-powered healthy eating companion designed specifically for UM students, providing personalised meal recommendations and nutritional guidance.
-
-- 📌 **[Storyboard-AI](https://github.com/AFLucas-UOM/Storyboard-AI)** - *Interactive Storytelling Platform*  
-Creative AI tool that generates dynamic, interactive narratives with user-driven plot development and character customisation.
 
 ## 📊 GitHub Analytics  
 
