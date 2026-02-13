@@ -169,28 +169,6 @@ class AboutMe:
 <img src="https://img.shields.io/github/followers/AFLucas-UOM?label=Followers&style=flat&color=4DB6AC" alt="GitHub Followers"/>
 <img src="https://img.shields.io/github/stars/AFLucas-UOM?label=Stars&style=flat&color=9575CD" alt="GitHub Stars"/>
 
-<br><br>
-
-<!-- 🔥 Streak Stats --
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=AFLucas-UOM&theme=vue-dark&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
-</a>
-
-<br><br>
-
-<!-- 📊 GitHub Stats --
-<div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-  <img src="https://github-readme-stats.vercel.app/api?username=AFLucas-UOM&show_icons=true&theme=vue-dark&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AFLucas-UOM&layout=compact&theme=vue-dark&hide_border=true" height="180" alt="Top Languages"/>
-</div>
-
-<br>
-
-<!-- 📈 Contribution Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AFLucas-UOM&theme=vue-dark&hide_border=true&bg_color=0d1117&color=2196F3&line=2196F3&point=ffffff" alt="Contribution Graph"/>
-
-</div>
--->
 <hr/>
 
 <p align="center">
