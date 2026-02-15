@@ -58,19 +58,24 @@ class AboutMe:
 
 <div align="center">
 
-[![Personal Email](https://img.shields.io/badge/Personal%20Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrealucasmalta@gmail.com)
-[![UM-Staff Email](https://img.shields.io/badge/University%20Email-andrea.f.lucas@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrea.f.lucas@um.edu.mt)
+[![Personal Email](https://img.shields.io/badge/Personal_Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrealucasmalta@gmail.com)
+[![Accademic Email](https://img.shields.io/badge/University_Email-andrea.f.lucas@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrea.f.lucas@um.edu.mt)
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aflucas26/)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/andrea.lucas.35175)
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0E66C2?style=for-the-badge&logo=linkedin101&logoColor=white)](https://www.linkedin.com/in/aflucas26)
 [![Medium](https://img.shields.io/badge/Medium-000000.svg?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@aflucas)
-[![X](https://img.shields.io/badge/X%20(Twitter)-000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AFLucas26)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aflucas26/)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/andrea.lucas.35175)
+[![X](https://img.shields.io/badge/X_(Twitter)-000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AFLucas26)
 [![Threads](https://img.shields.io/badge/Threads-000000.svg?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/@aflucas26)
+
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=fWevBSQAAAAJ&hl=en)
+[![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/search/cs?searchtype=author&query=Lucas%2C+A+F)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Andrea-Filiberto-Lucas)
 
 [![My Portfolio](https://img.shields.io/badge/My%20Portfolio-aflucas.com-blueviolet?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://aflucas.com)
 
 </div>
+
 
 ## 🧑🏻‍💻 Tech Stack & Expertise
 
