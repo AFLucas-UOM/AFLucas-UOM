@@ -75,7 +75,6 @@ class AboutMe:
 
 </div>
 
-
 ## 🧑🏻‍💻 Tech Stack & Expertise
 
 <details>
@@ -164,7 +163,6 @@ class AboutMe:
 ## 📊 GitHub Analytics  
 
 <div align="center">
-
 <!-- 🏆 Badges and Profile Stats -->
 <a href="https://user-badge.committers.top/malta/AFLucas-UOM">
   <img src="https://user-badge.committers.top/malta/AFLucas-UOM.svg" alt="Committers Badge"/>
