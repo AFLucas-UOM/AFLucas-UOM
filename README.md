@@ -38,23 +38,9 @@ class AboutMe:
             "AI for Education (AIED)"
         ]
 
-        self.projects = {
-            "EMBAT": {
-                "title": "Enhancing Malta's Basemap with AI Technology",
-                "focus": [
-                    "Shadow Detection and Removal in Orthophotos",
-                    "Building Boundary Detection",
-                    "Change Detection"
-                ]
-            },
-            "AICOM": {
-                "title": "AI to Optimise Cleansing in Malta",
-                "focus": [
-                    "Waste classification and analytics dashboard",
-                    "Real-time waste detection from street-level cameras",
-                    "Edge AI deployment on NVIDIA Jetson"
-                ]
-            }
+        self.research_projects = {
+            "EMBAT": "Enhancing Malta's Basemap with AI Technology",
+            "AICOM": "AI to Optimise Cleansing in Malta" # ongoing research project 
         }
 
         self.passions = {
