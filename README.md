@@ -76,8 +76,8 @@ class AboutMe:
 
 <div align="center">
 
-[![Personal Email](https://img.shields.io/badge/Personal_Email-contact@aflucas.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@aflucas.com)
-[![Accademic Email](https://img.shields.io/badge/University_Email-andrea.f.lucas@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrea.f.lucas@um.edu.mt)
+[![Email](https://img.shields.io/badge/Email-contact@aflucas.com-2563EB?style=for-the-badge&logoColor=white)](mailto:contact@aflucas.com)
+[![Research Email](https://img.shields.io/badge/Research_Email-andrea.f.lucas@um.edu.mt-2563EB?style=for-the-badge&logoColor=white)](mailto:andrea.f.lucas@um.edu.mt)
 
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0E66C2?style=for-the-badge&logo=linkedin101&logoColor=white)](https://www.linkedin.com/in/aflucas26)
 [![Medium](https://img.shields.io/badge/Medium-000000.svg?style=for-the-badge&logo=medium&logoColor=white)](https://aflucas.medium.com/)
@@ -90,7 +90,8 @@ class AboutMe:
 [![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/search/cs?searchtype=author&query=Lucas%2C+A+F)
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Andrea-Filiberto-Lucas)
 
-[![My Portfolio](https://img.shields.io/badge/My%20Portfolio-aflucas.com-blueviolet?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://aflucas.com)
+[![Website](https://img.shields.io/badge/Website-aflucas.com-7C3AED?style=for-the-badge&logoColor=white)](https://aflucas.com)
+
 
 </div>
 
@@ -197,6 +198,6 @@ class AboutMe:
 <p align="center">
   <sub>
     This README is licensed under <a href="./LICENSE">CC BY 4.0</a>.  
-    Attribution appreciated: <a href="https://github.com/AFLucas-UOM">AFLucas-UOM</a>
+    Attribution appreciated: <a href="https://github.com/AFLucas-UOM">@AFLucas-UOM</a>
   </sub>
 </p>
