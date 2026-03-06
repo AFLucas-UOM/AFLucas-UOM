@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Research+Support+Officer+@+UM;MSc+in+AI+Student+@+UM;BSc+IT+(Hons.)+(Melit)+Graduate;Computer+Vision+Enthusiast;AI+Researcher+%26+Developer" alt="Typing SVG">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Research+Support+Officer+@+UM;MSc+AI+Student+@+UM;BSc+IT+(Hons.)+(Melit.)+Graduate;AI+Researcher+%26+Developer" alt="Typing SVG">
   </a>
 </p>
 
@@ -21,7 +21,7 @@ class AboutMe:
         self.roles = [
             "Research Support Officer I (Dept. of AI)",
             "M.Sc. Artificial Intelligence Student",
-            "B.Sc. IT (Hons.) (Melit) in Artificial Intelligence Graduate"
+            "B.Sc. IT (Hons.) (Melit.) in AI Graduate"
         ]
 
         self.affiliation = "University of Malta"
@@ -38,6 +38,25 @@ class AboutMe:
             "AI for Education (AIED)"
         ]
 
+        self.projects = {
+            "EMBAT": {
+                "title": "Enhancing Malta's Basemap with AI Technology",
+                "focus": [
+                    "Shadow Detection and Removal in Orthophotos",
+                    "Building Boundary Detection",
+                    "Change Detection"
+                ]
+            },
+            "AICOM": {
+                "title": "AI to Optimise Cleansing in Malta",
+                "focus": [
+                    "Waste classification and analytics dashboard",
+                    "Real-time waste detection from street-level cameras",
+                    "Edge AI deployment on NVIDIA Jetson"
+                ]
+            }
+        }
+
         self.passions = {
             "creativity": [
                 "Playing Piano",
@@ -46,9 +65,9 @@ class AboutMe:
                 "PC Building"
             ],
             "community": [
-                "Volunteering",
-                "Knowledge Sharing",
-                "Organiser at GDG Malta (Google Developer Groups)"
+                "Knowledge Sharing and Technical Mentorship",
+                "Marketing Lead & Co-Organiser at GDG Malta (Google Developer Groups)",
+                "Publishing Technical Articles about AI and Emerging Technologies"
             ]
         }
 ```
@@ -57,13 +76,13 @@ class AboutMe:
 
 <div align="center">
 
-[![Personal Email](https://img.shields.io/badge/Personal_Email-andrealucasmalta@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrealucasmalta@gmail.com)
+[![Personal Email](https://img.shields.io/badge/Personal_Email-contact@aflucas.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@aflucas.com)
 [![Accademic Email](https://img.shields.io/badge/University_Email-andrea.f.lucas@um.edu.mt-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrea.f.lucas@um.edu.mt)
 
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0E66C2?style=for-the-badge&logo=linkedin101&logoColor=white)](https://www.linkedin.com/in/aflucas26)
-[![Medium](https://img.shields.io/badge/Medium-000000.svg?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@aflucas)
+[![Medium](https://img.shields.io/badge/Medium-000000.svg?style=for-the-badge&logo=medium&logoColor=white)](https://aflucas.medium.com/)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aflucas26/)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/andrea.lucas.35175)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/aflucas26)
 [![X](https://img.shields.io/badge/X_(Twitter)-000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AFLucas26)
 [![Threads](https://img.shields.io/badge/Threads-000000.svg?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/@aflucas26)
 
@@ -121,6 +140,7 @@ class AboutMe:
 ![Ollama](https://custom-icon-badges.demolab.com/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Tesseract OCR](https://img.shields.io/badge/Tesseract-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Librosa](https://img.shields.io/badge/Librosa-CC0000?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -130,6 +150,7 @@ class AboutMe:
 ### Cloud, Deployment & DevOps
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
