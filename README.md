@@ -52,7 +52,7 @@ class AboutMe:
             ],
             "community": [
                 "Knowledge Sharing and Technical Mentorship",
-                "Marketing Lead & Co-Organiser at GDG Malta (Google Developer Groups)",
+                "Marketing Lead & Co-Organiser at GDG Malta (Google Developer Group)",
                 "Publishing Technical Articles about AI and Emerging Technologies"
             ]
         }
