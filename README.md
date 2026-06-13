@@ -172,9 +172,6 @@ class AboutMe:
 
 <div align="center">
 <!-- 🏆 Badges and Profile Stats -->
-<a href="https://user-badge.committers.top/malta/AFLucas-UOM">
-  <img src="https://user-badge.committers.top/malta/AFLucas-UOM.svg" alt="Committers Badge"/>
-</a>
 <img src="https://komarev.com/ghpvc/?username=AFLucas-UOM&label=Profile%20Views&color=FF6F61&style=flat" alt="Profile Views"/>
 <img src="https://img.shields.io/github/followers/AFLucas-UOM?label=Followers&style=flat&color=4DB6AC" alt="GitHub Followers"/>
 <img src="https://img.shields.io/github/stars/AFLucas-UOM?label=Stars&style=flat&color=9575CD" alt="GitHub Stars"/>
