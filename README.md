@@ -13,48 +13,60 @@
 ```python
 class AboutMe:
     def __init__(self):
-        self.name = "Andrea Filiberto Lucas"
-        self.alias = "Fili"
-        self.age = 21  # as of 2025
+        self.name     = "Andrea Filiberto Lucas"
+        self.alias    = "Fili"
+        self.age      = 21  # as of 2025
         self.location = "Malta, EU"
 
         self.roles = [
-            "Research Support Officer I (Dept. of AI)",
+            "Research Support Officer I (Department of Artificial Intelligence)",
             "M.Sc. Artificial Intelligence Student",
-            "B.Sc. IT (Hons.) (Melit.) in AI Graduate"
+            "B.Sc. IT (Hons.) (Melit.) in Artificial Intelligence Graduate",
         ]
 
-        self.affiliation = "University of Malta"
+        self.affiliations = [
+            "University of Malta",
+            "DAWL AI Research Lab",
+        ]
 
         self.dissertations = {
             "B.Sc.": "Accurate Name Extraction from News Video Graphics",
-            "M.Sc.": "Loading..."  # to be updated once confirmed
+            "M.Sc.": "Comparative Evaluation of Computer Vision for Urban "
+                     "Waste and Infrastructure Monitoring",
         }
 
         self.research_interests = [
             "Computer Vision (CV)",
             "Multimodal AI Systems",
             "Applied Machine Learning (AML)",
-            "AI for Education (AIED)"
+            "AI for Education (AIED)",
         ]
 
         self.research_projects = {
             "EMBAT": "Enhancing Malta's Basemap with AI Technology",
-            "AICOM": "AI to Optimise Cleansing in Malta" # ongoing research project 
+            "AICOM": "AI to Optimise Cleansing in Malta",
         }
+
+        self.publications = [
+            {
+                "title": "A Hybrid Deterministic Framework for Named "
+                         "Entity Extraction in News Videos",
+                "publisher": "IEEE",
+            },
+        ]
 
         self.passions = {
             "creativity": [
                 "Playing Piano",
                 "Vinyl Collecting",
                 "Digital Design",
-                "PC Building"
+                "PC Building",
             ],
             "community": [
                 "Knowledge Sharing and Technical Mentorship",
                 "Marketing Lead & Co-Organiser at GDG Malta (Google Developer Group)",
-                "Publishing Technical Articles about AI and Emerging Technologies"
-            ]
+                "Publishing Technical Articles about AI and Emerging Technologies",
+            ],
         }
 ```
 
@@ -73,6 +85,7 @@ class AboutMe:
 [![Threads](https://img.shields.io/badge/Threads-000000.svg?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/@aflucas26)
 
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=fWevBSQAAAAJ&hl=en)
+[![IEEE Xplore](https://img.shields.io/badge/IEEE_Xplore-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/author/266736498588056)
 [![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/search/cs?searchtype=author&query=Lucas%2C+A+F)
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Andrea-Filiberto-Lucas)
 
@@ -165,6 +178,7 @@ class AboutMe:
 ### Operating Systems
 ![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?style=for-the-badge&logo=windows-11&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 </details>
 
