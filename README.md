@@ -18,28 +18,27 @@ class AboutMe:
         self.age      = 21  # as of 2025
         self.location = "Malta, EU"
 
-        self.roles = [
-            "Research Support Officer I (Department of Artificial Intelligence)",
-            "M.Sc. Artificial Intelligence Student",
-            "B.Sc. IT (Hons.) (Melit.) in Artificial Intelligence Graduate",
-        ]
-
         self.affiliations = [
             "University of Malta",
             "DAWL AI Research Lab",
         ]
 
+        self.roles = [
+            "BSc IT (Hons.) (Melit.) in Artificial Intelligence Graduate",
+            "Research Support Officer I (Dept. of AI)",
+            "MSc Artificial Intelligence Student",
+        ]
+
         self.dissertations = {
-            "B.Sc.": "Accurate Name Extraction from News Video Graphics",
-            "M.Sc.": "Comparative Evaluation of Computer Vision for Urban "
-                     "Waste and Infrastructure Monitoring",
+            "BSc": "Accurate Name Extraction from News Video Graphics",
+            "MSc": "Cross-Paradigm Visual Perception for Municipal Monitoring in Malta", # in progress
         }
 
-        self.research_interests = [
+        self.research_areas = [
             "Computer Vision (CV)",
             "Multimodal AI Systems",
             "Applied Machine Learning (AML)",
-            "AI for Education (AIED)",
+            "AI Literacy",
         ]
 
         self.research_projects = {
@@ -49,9 +48,8 @@ class AboutMe:
 
         self.publications = [
             {
-                "title": "A Hybrid Deterministic Framework for Named "
-                         "Entity Extraction in News Videos",
-                "publisher": "IEEE",
+                "title": "A Hybrid Deterministic Framework for Named Entity Extraction in News Videos",
+                "publisher": "IEEE CAI 2026",
             },
         ]
 
