@@ -98,9 +98,6 @@ class AboutMe:
 
 </details>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AFLucas-UOM&label=Profile%20Views&color=2563EB&style=flat" alt="Profile views">
-</p>
 
 <p align="center">
   <sub>
