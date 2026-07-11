@@ -22,7 +22,7 @@ class AboutMe:
         self.location = "Malta, EU"
 
         self.affiliations = [
-            "University of Malta Faculty of ICT, Department of AI",
+            "University of Malta, Department of AI",
             "DAWL AI Lab",
         ]
 
@@ -50,9 +50,6 @@ class AboutMe:
 [![Personal Email](https://img.shields.io/badge/Personal_Email-contact%40aflucas.com-2563EB?style=flat-square)](mailto:contact@aflucas.com)
 [![Research Email](https://img.shields.io/badge/Research_Email-andrea.f.lucas%40um.edu.mt-2563EB?style=flat-square)](mailto:andrea.f.lucas@um.edu.mt)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-aflucas26-0E66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aflucas26)
-[![Instagram](https://img.shields.io/badge/Instagram-aflucas26-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/aflucas26)
-[![Facebook](https://img.shields.io/badge/Facebook-aflucas26-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/aflucas26)
-[![X](https://img.shields.io/badge/X-aflucas26-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/aflucas26)
 [![Medium](https://img.shields.io/badge/Medium-aflucas-000000?style=flat-square&logo=medium&logoColor=white)](https://aflucas.medium.com/)
 [![IEEE Xplore](https://img.shields.io/badge/IEEE_Xplore-00629B?style=flat-square&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/author/266736498588056)
 [![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/search/cs?searchtype=author&query=Lucas%2C+A+F)
@@ -97,7 +94,6 @@ class AboutMe:
 ![LaTeX](https://img.shields.io/badge/LaTeX-47A141?style=flat-square&logo=latex&logoColor=white)
 
 </details>
-
 
 <p align="center">
   <sub>
