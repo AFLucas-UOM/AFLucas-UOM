@@ -2,12 +2,25 @@
   <img src="./assets/profile-card.svg" alt="Andrea Filiberto Lucas — terminal-style GitHub profile card" width="100%">
 </a>
 
-<p align="center">
-  <a href="mailto:contact@aflucas.com"><img src="https://img.shields.io/badge/Email-contact%40aflucas.com-2563EB?style=for-the-badge" alt="Email"></a>
-  <a href="https://aflucas.com"><img src="https://img.shields.io/badge/Website-aflucas.com-7C3AED?style=for-the-badge" alt="Website"></a>
-  <a href="https://www.linkedin.com/in/aflucas26"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0E66C2?style=for-the-badge&logo=linkedin101&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://scholar.google.com/citations?user=fWevBSQAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Google Scholar"></a>
-</p>
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-contact@aflucas.com-2563EB?style=for-the-badge&logoColor=white)](mailto:contact@aflucas.com)
+[![Research Email](https://img.shields.io/badge/Research_Email-andrea.f.lucas@um.edu.mt-2563EB?style=for-the-badge&logoColor=white)](mailto:andrea.f.lucas@um.edu.mt)
+
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0E66C2?style=for-the-badge&logo=linkedin101&logoColor=white)](https://www.linkedin.com/in/aflucas26)
+[![Medium](https://img.shields.io/badge/Medium-000000.svg?style=for-the-badge&logo=medium&logoColor=white)](https://aflucas.medium.com/)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aflucas26/)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/aflucas26)
+[![X](https://img.shields.io/badge/X_(Twitter)-000000.svg?style=for-the-badge&logo=x&logoColor=white)](https://x.com/AFLucas26)
+[![Threads](https://img.shields.io/badge/Threads-000000.svg?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/@aflucas26)
+
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=fWevBSQAAAAJ&hl=en)
+[![IEEE Xplore](https://img.shields.io/badge/IEEE_Xplore-00629B?style=for-the-badge&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/author/266736498588056)
+[![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/search/cs?searchtype=author&query=Lucas%2C+A+F)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Andrea-Filiberto-Lucas)
+
+[![Website](https://img.shields.io/badge/Website-aflucas.com-7C3AED?style=for-the-badge&logoColor=white)](https://aflucas.com)
+
 
 <details>
 <summary><strong>About me, research and technical toolkit</strong></summary>
