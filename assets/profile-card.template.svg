@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="720" viewBox="0 0 1100 720" role="img" aria-labelledby="title desc">
+  <title id="title">Andrea Filiberto Lucas GitHub profile terminal card</title>
+  <desc id="desc">A terminal-inspired GitHub profile card with portrait, overview, research, contact and GitHub statistics.</desc>
+  <defs>
+    <clipPath id="portraitClip"><rect x="28" y="58" width="300" height="430" rx="18"/></clipPath>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @font-face {
+      font-family: "ConsolasFallback";
+      src: local("Consolas"), local("Menlo"), local("Monaco"), local("Liberation Mono");
+      font-display: swap;
+    }
+    text, tspan { white-space: pre; }
+    .bg { fill: #0d1117; }
+    .frame { fill: url(#panelGrad); stroke: #30363d; stroke-width: 1.5; }
+    .titlebar { fill: #161b22; stroke: #30363d; stroke-width: 1.2; }
+    .title { font: 600 14px "ConsolasFallback", monospace; fill: #8b949e; }
+    .window-dot-red { fill: #ff5f56; }
+    .window-dot-yellow { fill: #ffbd2e; }
+    .window-dot-green { fill: #27c93f; }
+    .portrait-stroke { fill: none; stroke: #30363d; stroke-width: 1.5; }
+    .portrait-info-box { fill: #161b22; stroke: #30363d; stroke-width: 1.2; }
+    .left-name { font: 700 30px "Segoe UI", Arial, sans-serif; fill: #f0f6fc; }
+    .left-role { font: 600 18px "Segoe UI", Arial, sans-serif; fill: #d2a8ff; }
+    .left-meta { font: 500 15px "Segoe UI", Arial, sans-serif; fill: #c9d1d9; }
+    .header { font: 700 18px "ConsolasFallback", monospace; fill: #3fb950; }
+    .section { font: 700 18px "ConsolasFallback", monospace; fill: #f0f6fc; }
+    .row { font: 16px "ConsolasFallback", monospace; fill: #c9d1d9; }
+    .key { fill: #ffa657; font-weight: 700; }
+    .value { fill: #a5d6ff; }
+    .muted { fill: #8b949e; }
+    .divider { stroke: #30363d; stroke-width: 1; }
+    .stats-box { fill: #111827; stroke: #30363d; stroke-width: 1.2; }
+    .stats-label { font: 700 15px "ConsolasFallback", monospace; fill: #ffa657; }
+    .stats-value { font: 700 16px "ConsolasFallback", monospace; fill: #f0f6fc; }
+  </style>
+
+  <rect width="1100" height="720" class="bg"/>
+  <rect x="10" y="10" width="1080" height="700" rx="18" class="frame"/>
+  <rect x="10" y="10" width="1080" height="38" rx="18" class="titlebar"/>
+  <circle cx="34" cy="29" r="6" class="window-dot-red"/>
+  <circle cx="54" cy="29" r="6" class="window-dot-yellow"/>
+  <circle cx="74" cy="29" r="6" class="window-dot-green"/>
+  <text x="550" y="33" text-anchor="middle" class="title">fili@aflucas.com  —  profile</text>
+
+  <image x="28" y="58" width="300" height="430" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)" xlink:href="data:image/jpeg;base64,{{PROFILE_IMAGE_BASE64}}"/>
+  <rect x="28" y="58" width="300" height="430" rx="18" class="portrait-stroke"/>
+
+  <rect x="28" y="500" width="300" height="182" rx="16" class="portrait-info-box"/>
+  <text x="46" y="535" class="left-name">Andrea Filiberto Lucas</text>
+  <text x="46" y="563" class="left-role">AI Researcher &amp; Developer</text>
+  <text x="46" y="595" class="left-meta" style="font-size:14px;">University of Malta Faculty of ICT, Dept. of AI</text>
+  <text x="46" y="621" class="left-meta">DAWL AI Lab</text>
+  <text x="46" y="647" class="left-meta">aflucas.com</text>
+
+  <text x="356" y="80" class="header">fili@aflucas.com</text>
+  <line x1="515" y1="73" x2="1062" y2="73" class="divider"/>
+
+  <text x="356" y="112" class="section">Overview</text>
+  <text x="356" y="138" class="row"><tspan class="muted">. </tspan><tspan class="key">Alias</tspan><tspan class="muted"> ...................................... </tspan><tspan class="value">Fili</tspan></text>
+  <text x="356" y="164" class="row"><tspan class="muted">. </tspan><tspan class="key">Location</tspan><tspan class="muted"> ................................... </tspan><tspan class="value">Malta, EU</tspan></text>
+  <text x="356" y="190" class="row"><tspan class="muted">. </tspan><tspan class="key">Uptime</tspan><tspan class="muted"> ..................................... </tspan><tspan class="value" id="uptime_data">{{UPTIME}}</tspan></text>
+  <text x="356" y="216" class="row"><tspan class="muted">. </tspan><tspan class="key">Host</tspan><tspan class="muted"> ....................................... </tspan><tspan class="value">DAWL AI Lab @ University of Malta</tspan></text>
+  <text x="356" y="242" class="row"><tspan class="muted">. </tspan><tspan class="key">Kernel</tspan><tspan class="muted"> ..................................... </tspan><tspan class="value">Research Support Officer &amp; MSc AI Student</tspan></text>
+  <text x="356" y="268" class="row"><tspan class="muted">. </tspan><tspan class="key">OS</tspan><tspan class="muted"> ......................................... </tspan><tspan class="value">macOS 26 · Windows 11 · Ubuntu LTS 24.04</tspan></text>
+
+  <text x="356" y="306" class="row"><tspan class="muted">. </tspan><tspan class="key">Languages</tspan><tspan class="key">.TopProgramming</tspan><tspan class="muted"> ............. </tspan><tspan class="value">Python · JS/TS · Java · C/C++ · C#</tspan></text>
+  <text x="356" y="332" class="row"><tspan class="muted">. </tspan><tspan class="key">Languages</tspan><tspan class="key">.Computer</tspan><tspan class="muted"> ................... </tspan><tspan class="value">HTML · CSS · JSON · LaTeX · YAML</tspan></text>
+  <text x="356" y="358" class="row"><tspan class="muted">. </tspan><tspan class="key">Languages</tspan><tspan class="key">.Real</tspan><tspan class="muted"> ....................... </tspan><tspan class="value">English · Maltese</tspan></text>
+  <text x="356" y="384" class="row"><tspan class="muted">. </tspan><tspan class="key">Passion</tspan><tspan class="key">.Creativity</tspan><tspan class="muted"> ...................... </tspan><tspan class="value">Piano · Vinyl Collecting · Digital Design · PC Building</tspan></text>
+  <text x="356" y="410" class="row"><tspan class="muted">. </tspan><tspan class="key">Passion</tspan><tspan class="key">.Community</tspan><tspan class="muted"> ....................... </tspan><tspan class="value">GDG Malta Marketing Lead · Medium Writer</tspan></text>
+
+  <text x="356" y="450" class="section">Research</text>
+  <text x="356" y="476" class="row"><tspan class="muted">. </tspan><tspan class="key">Research</tspan><tspan class="key">.Areas</tspan><tspan class="muted"> ...................... </tspan><tspan class="value">Computer Vision (CV) · Multimodal AI Systems · AI Literacy</tspan></text>
+  <text x="356" y="502" class="row"><tspan class="muted">. </tspan><tspan class="key">Research</tspan><tspan class="key">.Current</tspan><tspan class="muted"> .................... </tspan><tspan class="value">Cross-Paradigm Visual Perception for Municipal Monitoring</tspan></text>
+  <text x="356" y="528" class="row"><tspan class="muted">. </tspan><tspan class="key">Research</tspan><tspan class="key">.Projects</tspan><tspan class="muted"> ................... </tspan><tspan class="value">AICOM &amp; EMBAT</tspan></text>
+
+  <text x="356" y="568" class="section">Contact</text>
+  <text x="356" y="594" class="row"><tspan class="muted">. </tspan><tspan class="key">Email</tspan><tspan class="key">.Personal</tspan><tspan class="muted"> ..................... </tspan><tspan class="value">contact@aflucas.com</tspan></text>
+  <text x="356" y="620" class="row"><tspan class="muted">. </tspan><tspan class="key">Email</tspan><tspan class="key">.Research</tspan><tspan class="muted"> ..................... </tspan><tspan class="value">andrea.f.lucas@um.edu.mt</tspan></text>
+  <text x="356" y="646" class="row"><tspan class="muted">. </tspan><tspan class="key">Social</tspan><tspan class="key">.LinkedIn</tspan><tspan class="muted"> .................... </tspan><tspan class="value">aflucas26</tspan></text>
+  <text x="356" y="672" class="row"><tspan class="muted">. </tspan><tspan class="key">Social</tspan><tspan class="key">.Instagram</tspan><tspan class="muted"> ................... </tspan><tspan class="value">aflucas26</tspan></text>
+  <text x="812" y="594" class="row" style="font-size:14px;"><tspan class="muted">. </tspan><tspan class="key">Social</tspan><tspan class="key">.Facebook</tspan><tspan class="muted"> ......... </tspan><tspan class="value">aflucas26</tspan></text>
+  <text x="812" y="620" class="row" style="font-size:14px;"><tspan class="muted">. </tspan><tspan class="key">Social</tspan><tspan class="key">.X</tspan><tspan class="muted"> ................. </tspan><tspan class="value">aflucas26</tspan></text>
+
+  <rect x="790" y="548" width="274" height="34" rx="10" class="stats-box"/>
+  <text x="806" y="570" class="stats-label" id="contrib_label">{{CONTRIB_LABEL}}</text>
+  <text x="1038" y="570" text-anchor="end" class="stats-value" id="contrib_data">{{CONTRIB_DATA}}</text>
+
+  <rect x="790" y="642" width="274" height="40" rx="10" class="stats-box"/>
+  <text x="804" y="668" class="stats-label" style="font-size:14px;">Repos</text><text x="850" y="668" class="stats-value" id="repo_data">{{REPO_DATA}}</text>
+  <text x="882" y="668" class="stats-label" style="font-size:14px;">Followers</text><text x="972" y="668" class="stats-value" id="follower_data">{{FOLLOWER_DATA}}</text>
+  <text x="1002" y="668" class="stats-label" style="font-size:14px;">Stars</text><text x="1052" y="668" text-anchor="end" class="stats-value" id="star_data">{{STAR_DATA}}</text>
+</svg>
