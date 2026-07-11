@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="720" viewBox="0 0 1100 720" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="820" viewBox="0 0 1100 820" role="img" aria-labelledby="title desc">
   <title id="title">Andrea Filiberto Lucas GitHub profile terminal card</title>
-  <desc id="desc">A terminal-inspired GitHub profile card with portrait, overview, research, contact and GitHub statistics.</desc>
+  <desc id="desc">Terminal-inspired GitHub profile card with portrait, profile information, research, contact details and GitHub statistics.</desc>
   <defs>
-    <clipPath id="portraitClip"><rect x="28" y="58" width="300" height="430" rx="18"/></clipPath>
+    <clipPath id="portraitClip"><rect x="28" y="58" width="300" height="430" rx="16"/></clipPath>
     <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#111827"/>
       <stop offset="100%" stop-color="#0b1220"/>
@@ -19,29 +19,29 @@
     .bg { fill: #0d1117; }
     .frame { fill: url(#panelGrad); stroke: #30363d; stroke-width: 1.5; }
     .titlebar { fill: #161b22; stroke: #30363d; stroke-width: 1.2; }
-    .title { font: 600 14px "ConsolasFallback", monospace; fill: #8b949e; }
     .window-dot-red { fill: #ff5f56; }
     .window-dot-yellow { fill: #ffbd2e; }
     .window-dot-green { fill: #27c93f; }
+    .title { font: 600 13px "ConsolasFallback", monospace; fill: #8b949e; }
     .portrait-stroke { fill: none; stroke: #30363d; stroke-width: 1.5; }
     .portrait-info-box { fill: #161b22; stroke: #30363d; stroke-width: 1.2; }
-    .left-name { font: 700 30px "Segoe UI", Arial, sans-serif; fill: #f0f6fc; }
-    .left-role { font: 600 18px "Segoe UI", Arial, sans-serif; fill: #d2a8ff; }
-    .left-meta { font: 500 15px "Segoe UI", Arial, sans-serif; fill: #c9d1d9; }
+    .left-name { font: 700 23px "Segoe UI", Arial, sans-serif; fill: #f0f6fc; }
+    .left-role { font: 600 16px "Segoe UI", Arial, sans-serif; fill: #d2a8ff; }
+    .left-meta { font: 500 14px "Segoe UI", Arial, sans-serif; fill: #c9d1d9; }
     .header { font: 700 18px "ConsolasFallback", monospace; fill: #3fb950; }
-    .section { font: 700 18px "ConsolasFallback", monospace; fill: #f0f6fc; }
-    .row { font: 16px "ConsolasFallback", monospace; fill: #c9d1d9; }
-    .key { fill: #ffa657; font-weight: 700; }
-    .value { fill: #a5d6ff; }
-    .muted { fill: #8b949e; }
+    .section { font: 700 17px "ConsolasFallback", monospace; fill: #f0f6fc; }
+    .label { font: 700 14px "ConsolasFallback", monospace; fill: #ffa657; }
+    .value { font: 14px "ConsolasFallback", monospace; fill: #a5d6ff; text-anchor: end; }
+    .value.small { font-size: 13px; }
+    .leader { stroke: #6e7681; stroke-width: 1.6; stroke-linecap: round; stroke-dasharray: 1 5; }
     .divider { stroke: #30363d; stroke-width: 1; }
     .stats-box { fill: #111827; stroke: #30363d; stroke-width: 1.2; }
-    .stats-label { font: 700 15px "ConsolasFallback", monospace; fill: #ffa657; }
-    .stats-value { font: 700 16px "ConsolasFallback", monospace; fill: #f0f6fc; }
+    .stats-label { font: 700 14px "ConsolasFallback", monospace; fill: #ffa657; }
+    .stats-value { font: 700 15px "ConsolasFallback", monospace; fill: #f0f6fc; text-anchor: end; }
   </style>
 
-  <rect width="1100" height="720" class="bg"/>
-  <rect x="10" y="10" width="1080" height="700" rx="18" class="frame"/>
+  <rect width="1100" height="820" class="bg"/>
+  <rect x="10" y="10" width="1080" height="800" rx="18" class="frame"/>
   <rect x="10" y="10" width="1080" height="38" rx="18" class="titlebar"/>
   <circle cx="34" cy="29" r="6" class="window-dot-red"/>
   <circle cx="54" cy="29" r="6" class="window-dot-yellow"/>
@@ -49,51 +49,46 @@
   <text x="550" y="33" text-anchor="middle" class="title">fili@aflucas.com  —  profile</text>
 
   <image x="28" y="58" width="300" height="430" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)" xlink:href="data:image/jpeg;base64,{{PROFILE_IMAGE_BASE64}}"/>
-  <rect x="28" y="58" width="300" height="430" rx="18" class="portrait-stroke"/>
+  <rect x="28" y="58" width="300" height="430" rx="16" class="portrait-stroke"/>
 
-  <rect x="28" y="500" width="300" height="182" rx="16" class="portrait-info-box"/>
+  <rect x="28" y="500" width="300" height="274" rx="16" class="portrait-info-box"/>
   <text x="46" y="535" class="left-name">Andrea Filiberto Lucas</text>
   <text x="46" y="563" class="left-role">AI Researcher &amp; Developer</text>
-  <text x="46" y="595" class="left-meta" style="font-size:14px;">University of Malta Faculty of ICT, Dept. of AI</text>
-  <text x="46" y="621" class="left-meta">DAWL AI Lab</text>
-  <text x="46" y="647" class="left-meta">aflucas.com</text>
+  <text x="46" y="603" class="left-meta">University of Malta · Dept. of AI</text>
+  <text x="46" y="631" class="left-meta">aflucas.com</text>
 
   <text x="356" y="80" class="header">fili@aflucas.com</text>
   <line x1="515" y1="73" x2="1062" y2="73" class="divider"/>
 
   <text x="356" y="112" class="section">Overview</text>
-  <text x="356" y="138" class="row"><tspan class="muted">. </tspan><tspan class="key">Alias</tspan><tspan class="muted"> ...................................... </tspan><tspan class="value">Fili</tspan></text>
-  <text x="356" y="164" class="row"><tspan class="muted">. </tspan><tspan class="key">Location</tspan><tspan class="muted"> ................................... </tspan><tspan class="value">Malta, EU</tspan></text>
-  <text x="356" y="190" class="row"><tspan class="muted">. </tspan><tspan class="key">Uptime</tspan><tspan class="muted"> ..................................... </tspan><tspan class="value" id="uptime_data">{{UPTIME}}</tspan></text>
-  <text x="356" y="216" class="row"><tspan class="muted">. </tspan><tspan class="key">Host</tspan><tspan class="muted"> ....................................... </tspan><tspan class="value">DAWL AI Lab @ University of Malta</tspan></text>
-  <text x="356" y="242" class="row"><tspan class="muted">. </tspan><tspan class="key">Kernel</tspan><tspan class="muted"> ..................................... </tspan><tspan class="value">Research Support Officer &amp; MSc AI Student</tspan></text>
-  <text x="356" y="268" class="row"><tspan class="muted">. </tspan><tspan class="key">OS</tspan><tspan class="muted"> ......................................... </tspan><tspan class="value">macOS 26 · Windows 11 · Ubuntu LTS 24.04</tspan></text>
+  <text x="356" y="138" class="label">Alias</text><line x1="412" y1="133" x2="1008" y2="133" class="leader"/><text x="1050" y="138" class="value">Fili</text>
+  <text x="356" y="164" class="label">Location</text><line x1="438" y1="159" x2="972" y2="159" class="leader"/><text x="1050" y="164" class="value">Malta, EU</text>
+  <text x="356" y="190" class="label">Uptime</text><line x1="421" y1="185" x2="844" y2="185" class="leader"/><text x="1050" y="190" class="value" id="uptime_data">{{UPTIME}}</text>
+  <text x="356" y="216" class="label">Host</text><line x1="404" y1="211" x2="782" y2="211" class="leader"/><text x="1050" y="216" class="value">DAWL AI Lab @ University of Malta</text>
+  <text x="356" y="242" class="label">Kernel</text><line x1="421" y1="237" x2="744" y2="237" class="leader"/><text x="1050" y="242" class="value">Research Support Officer &amp; MSc AI Student</text>
+  <text x="356" y="268" class="label">OS</text><line x1="382" y1="263" x2="752" y2="263" class="leader"/><text x="1050" y="268" class="value">macOS 26 · Windows 11 · Ubuntu LTS 24.04</text>
 
-  <text x="356" y="306" class="row"><tspan class="muted">. </tspan><tspan class="key">Languages</tspan><tspan class="key">.TopProgramming</tspan><tspan class="muted"> ............. </tspan><tspan class="value">Python · JS/TS · Java · C/C++ · C#</tspan></text>
-  <text x="356" y="332" class="row"><tspan class="muted">. </tspan><tspan class="key">Languages</tspan><tspan class="key">.Computer</tspan><tspan class="muted"> ................... </tspan><tspan class="value">HTML · CSS · JSON · LaTeX · YAML</tspan></text>
-  <text x="356" y="358" class="row"><tspan class="muted">. </tspan><tspan class="key">Languages</tspan><tspan class="key">.Real</tspan><tspan class="muted"> ....................... </tspan><tspan class="value">English · Maltese</tspan></text>
-  <text x="356" y="384" class="row"><tspan class="muted">. </tspan><tspan class="key">Passion</tspan><tspan class="key">.Creativity</tspan><tspan class="muted"> ...................... </tspan><tspan class="value">Piano · Vinyl Collecting · Digital Design · PC Building</tspan></text>
-  <text x="356" y="410" class="row"><tspan class="muted">. </tspan><tspan class="key">Passion</tspan><tspan class="key">.Community</tspan><tspan class="muted"> ....................... </tspan><tspan class="value">GDG Malta Marketing Lead · Medium Writer</tspan></text>
+  <text x="356" y="308" class="section">Languages &amp; Passions</text>
+  <text x="356" y="334" class="label">Languages.TopProgramming</text><line x1="558" y1="329" x2="746" y2="329" class="leader"/><text x="1050" y="334" class="value">Python · JS/TS · Java · C/C++ · C#</text>
+  <text x="356" y="360" class="label">Languages.Computer</text><line x1="520" y1="355" x2="782" y2="355" class="leader"/><text x="1050" y="360" class="value">HTML · CSS · JSON · LaTeX · YAML</text>
+  <text x="356" y="386" class="label">Languages.Real</text><line x1="486" y1="381" x2="918" y2="381" class="leader"/><text x="1050" y="386" class="value">English · Maltese</text>
+  <text x="356" y="412" class="label">Passion.Creativity</text><line x1="512" y1="407" x2="604" y2="407" class="leader"/><text x="1050" y="412" class="value">Piano · Vinyl Collecting · Digital Design · PC Building</text>
+  <text x="356" y="438" class="label">Passion.Community</text><line x1="520" y1="433" x2="722" y2="433" class="leader"/><text x="1050" y="438" class="value">GDG Malta Marketing Lead · Medium Writer</text>
 
-  <text x="356" y="450" class="section">Research</text>
-  <text x="356" y="476" class="row"><tspan class="muted">. </tspan><tspan class="key">Research</tspan><tspan class="key">.Areas</tspan><tspan class="muted"> ...................... </tspan><tspan class="value">Computer Vision (CV) · Multimodal AI Systems · AI Literacy</tspan></text>
-  <text x="356" y="502" class="row"><tspan class="muted">. </tspan><tspan class="key">Research</tspan><tspan class="key">.Current</tspan><tspan class="muted"> .................... </tspan><tspan class="value">Cross-Paradigm Visual Perception for Municipal Monitoring</tspan></text>
-  <text x="356" y="528" class="row"><tspan class="muted">. </tspan><tspan class="key">Research</tspan><tspan class="key">.Projects</tspan><tspan class="muted"> ................... </tspan><tspan class="value">AICOM &amp; EMBAT</tspan></text>
+  <text x="356" y="480" class="section">Research</text>
+  <text x="356" y="506" class="label">Research.Areas</text><line x1="486" y1="501" x2="646" y2="501" class="leader"/><text x="1050" y="506" class="value small">Computer Vision (CV) · Multimodal AI Systems · AI Literacy</text>
+  <text x="356" y="532" class="label">Research.Current</text><line x1="503" y1="527" x2="602" y2="527" class="leader"/><text x="1050" y="532" class="value small">Cross-Paradigm Visual Perception for Municipal Monitoring</text>
+  <text x="356" y="558" class="label">Research.Projects</text><line x1="512" y1="553" x2="918" y2="553" class="leader"/><text x="1050" y="558" class="value">AICOM &amp; EMBAT</text>
 
-  <text x="356" y="568" class="section">Contact</text>
-  <text x="356" y="594" class="row"><tspan class="muted">. </tspan><tspan class="key">Email</tspan><tspan class="key">.Personal</tspan><tspan class="muted"> ..................... </tspan><tspan class="value">contact@aflucas.com</tspan></text>
-  <text x="356" y="620" class="row"><tspan class="muted">. </tspan><tspan class="key">Email</tspan><tspan class="key">.Research</tspan><tspan class="muted"> ..................... </tspan><tspan class="value">andrea.f.lucas@um.edu.mt</tspan></text>
-  <text x="356" y="646" class="row"><tspan class="muted">. </tspan><tspan class="key">Social</tspan><tspan class="key">.LinkedIn</tspan><tspan class="muted"> .................... </tspan><tspan class="value">aflucas26</tspan></text>
-  <text x="356" y="672" class="row"><tspan class="muted">. </tspan><tspan class="key">Social</tspan><tspan class="key">.Instagram</tspan><tspan class="muted"> ................... </tspan><tspan class="value">aflucas26</tspan></text>
-  <text x="812" y="594" class="row" style="font-size:14px;"><tspan class="muted">. </tspan><tspan class="key">Social</tspan><tspan class="key">.Facebook</tspan><tspan class="muted"> ......... </tspan><tspan class="value">aflucas26</tspan></text>
-  <text x="812" y="620" class="row" style="font-size:14px;"><tspan class="muted">. </tspan><tspan class="key">Social</tspan><tspan class="key">.X</tspan><tspan class="muted"> ................. </tspan><tspan class="value">aflucas26</tspan></text>
+  <text x="356" y="600" class="section">Contact</text>
+  <text x="356" y="626" class="label">Email.Personal</text><line x1="486" y1="621" x2="880" y2="621" class="leader"/><text x="1050" y="626" class="value">contact@aflucas.com</text>
+  <text x="356" y="652" class="label">Email.Research</text><line x1="486" y1="647" x2="818" y2="647" class="leader"/><text x="1050" y="652" class="value">andrea.f.lucas@um.edu.mt</text>
+  <text x="356" y="678" class="label">Social.LinkedIn</text><line x1="494" y1="673" x2="970" y2="673" class="leader"/><text x="1050" y="678" class="value">aflucas26</text>
 
-  <rect x="790" y="548" width="274" height="34" rx="10" class="stats-box"/>
-  <text x="806" y="570" class="stats-label" id="contrib_label">{{CONTRIB_LABEL}}</text>
-  <text x="1038" y="570" text-anchor="end" class="stats-value" id="contrib_data">{{CONTRIB_DATA}}</text>
-
-  <rect x="790" y="642" width="274" height="40" rx="10" class="stats-box"/>
-  <text x="804" y="668" class="stats-label" style="font-size:14px;">Repos</text><text x="850" y="668" class="stats-value" id="repo_data">{{REPO_DATA}}</text>
-  <text x="882" y="668" class="stats-label" style="font-size:14px;">Followers</text><text x="972" y="668" class="stats-value" id="follower_data">{{FOLLOWER_DATA}}</text>
-  <text x="1002" y="668" class="stats-label" style="font-size:14px;">Stars</text><text x="1052" y="668" text-anchor="end" class="stats-value" id="star_data">{{STAR_DATA}}</text>
+  <text x="356" y="720" class="section">GitHub Stats</text>
+  <rect x="356" y="734" width="694" height="68" rx="10" class="stats-box"/>
+  <text x="372" y="758" class="stats-label">Repos</text><line x1="422" y1="753" x2="626" y2="753" class="leader"/><text x="642" y="758" class="stats-value" id="repo_data">{{REPO_DATA}}</text>
+  <text x="700" y="758" class="stats-label">Followers</text><line x1="785" y1="753" x2="1030" y2="753" class="leader"/><text x="1048" y="758" class="stats-value" id="follower_data">{{FOLLOWER_DATA}}</text>
+  <text x="372" y="788" class="stats-label">Stars</text><line x1="422" y1="783" x2="626" y2="783" class="leader"/><text x="642" y="788" class="stats-value" id="star_data">{{STAR_DATA}}</text>
+  <text x="700" y="788" class="stats-label" id="contrib_label">{{CONTRIB_LABEL}}</text><line x1="820" y1="783" x2="1030" y2="783" class="leader"/><text x="1048" y="788" class="stats-value" id="contrib_data">{{CONTRIB_DATA}}</text>
 </svg>
