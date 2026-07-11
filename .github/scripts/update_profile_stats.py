@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
-"""Refresh the dynamic values embedded in the profile-card SVG files.
-
-Uses only Python's standard library and the GitHub token supplied by GitHub Actions.
-"""
+"""Build the GitHub profile card and refresh its dynamic statistics."""
 
 from __future__ import annotations
 
+import base64
 import calendar
 import datetime as dt
 import json
 import os
 from pathlib import Path
 import urllib.request
-import xml.etree.ElementTree as ET
 
 USERNAME = os.getenv("PROFILE_USERNAME", "AFLucas-UOM")
 TOKEN = os.getenv("GITHUB_TOKEN", "")
 ROOT = Path(__file__).resolve().parents[2]
-SVG_FILES = (ROOT / "assets" / "profile-card.svg",)
+ASSETS = ROOT / "assets"
+SVG_TEMPLATE = ASSETS / "profile-card.template.svg"
+SVG_OUTPUT = ASSETS / "profile-card.svg"
+PROFILE_IMAGE = ASSETS / "profile-photo.jpg"
+IMAGE_PARTS = tuple(sorted((ROOT / ".github").glob("profile-image.hex.part*")))
+BIRTH_DATE = dt.date(2004, 8, 26)
 
 
 def github_request(url: str, *, data: dict | None = None) -> dict | list:
@@ -39,6 +41,19 @@ def github_request(url: str, *, data: dict | None = None) -> dict | list:
         return json.load(response)
 
 
+def ensure_profile_image() -> None:
+    """Reconstruct the supplied portrait without removing or replacing its background."""
+    if PROFILE_IMAGE.exists():
+        return
+    if not IMAGE_PARTS:
+        raise FileNotFoundError("No profile image or encoded image parts were found.")
+
+    encoded_hex = "".join(
+        part.read_text(encoding="ascii").strip() for part in IMAGE_PARTS
+    )
+    PROFILE_IMAGE.write_bytes(bytes.fromhex(encoded_hex))
+
+
 def fetch_all_public_repositories() -> list[dict]:
     repositories: list[dict] = []
     page = 1
@@ -52,9 +67,8 @@ def fetch_all_public_repositories() -> list[dict]:
             raise RuntimeError("Unexpected repositories response.")
         repositories.extend(batch)
         if len(batch) < 100:
-            break
+            return repositories
         page += 1
-    return repositories
 
 
 def contribution_count() -> tuple[int, int]:
@@ -86,13 +100,11 @@ def contribution_count() -> tuple[int, int]:
     return year, count
 
 
-def account_uptime(created_at: str) -> str:
-    created = dt.datetime.fromisoformat(created_at.replace("Z", "+00:00")).date()
+def age_string(birth_date: dt.date) -> str:
     today = dt.datetime.now(dt.timezone.utc).date()
-
-    years = today.year - created.year
-    months = today.month - created.month
-    days = today.day - created.day
+    years = today.year - birth_date.year
+    months = today.month - birth_date.month
+    days = today.day - birth_date.day
 
     if days < 0:
         months -= 1
@@ -104,26 +116,35 @@ def account_uptime(created_at: str) -> str:
         years -= 1
         months += 12
 
-    return f"{years}y {months}m {days}d"
+    def unit(value: int, name: str) -> str:
+        return f"{value} {name}{'' if value == 1 else 's'}"
+
+    return f"{unit(years, 'year')}, {unit(months, 'month')}, {unit(days, 'day')}"
 
 
-def replace_text(root: ET.Element, element_id: str, value: str) -> None:
-    for element in root.iter():
-        if element.attrib.get("id") == element_id:
-            element.text = value
-            return
-    raise KeyError(f"SVG element with id={element_id!r} was not found.")
+def render_profile_card(values: dict[str, str]) -> None:
+    ensure_profile_image()
+    template = SVG_TEMPLATE.read_text(encoding="utf-8")
+    image_base64 = base64.b64encode(PROFILE_IMAGE.read_bytes()).decode("ascii")
 
+    replacements = {
+        "{{PROFILE_IMAGE_BASE64}}": image_base64,
+        "{{UPTIME}}": values["uptime"],
+        "{{REPO_DATA}}": values["repos"],
+        "{{FOLLOWER_DATA}}": values["followers"],
+        "{{STAR_DATA}}": values["stars"],
+        "{{CONTRIB_LABEL}}": values["contrib_label"],
+        "{{CONTRIB_DATA}}": values["contrib_data"],
+    }
 
-def update_svg(path: Path, values: dict[str, str]) -> None:
-    ET.register_namespace("", "http://www.w3.org/2000/svg")
-    tree = ET.parse(path)
-    root = tree.getroot()
+    for token, replacement in replacements.items():
+        template = template.replace(token, replacement)
 
-    for element_id, value in values.items():
-        replace_text(root, element_id, value)
+    unresolved = [token for token in replacements if token in template]
+    if unresolved:
+        raise RuntimeError(f"Unresolved SVG tokens: {', '.join(unresolved)}")
 
-    tree.write(path, encoding="utf-8", xml_declaration=True)
+    SVG_OUTPUT.write_text(template, encoding="utf-8")
 
 
 def main() -> None:
@@ -136,17 +157,17 @@ def main() -> None:
     year, contributions = contribution_count()
 
     values = {
-        "repo_data": f"{int(user['public_repos']):,}",
-        "follower_data": f"{int(user['followers']):,}",
-        "star_data": f"{stars:,}",
+        "repos": f"{int(user['public_repos']):,}",
+        "followers": f"{int(user['followers']):,}",
+        "stars": f"{stars:,}",
         "contrib_label": f"Contribs.{year}",
         "contrib_data": f"{contributions:,}",
-        "uptime_data": account_uptime(str(user["created_at"])),
+        "uptime": age_string(BIRTH_DATE),
     }
 
-    for svg_path in SVG_FILES:
-        update_svg(svg_path, values)
-        print(f"Updated {svg_path.relative_to(ROOT)}")
+    render_profile_card(values)
+    print(f"Updated {SVG_OUTPUT.relative_to(ROOT)}")
+    print(f"Profile image: {PROFILE_IMAGE.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
