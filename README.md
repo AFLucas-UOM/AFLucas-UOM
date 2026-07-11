@@ -1,5 +1,5 @@
 <a href="https://github.com/AFLucas-UOM">
-  <img src="./assets/profile-card.svg" alt="Andrea Filiberto Lucas — terminal-style GitHub profile card">
+  <img src="./assets/profile-card.svg" alt="Andrea Filiberto Lucas — terminal-style GitHub profile card" width="100%">
 </a>
 
 <p align="center">
@@ -22,45 +22,38 @@ class AboutMe:
         self.location = "Malta, EU"
 
         self.affiliations = [
-            "University of Malta",
-            "DAWL AI Research Lab",
+            "University of Malta Faculty of ICT, Department of AI",
+            "DAWL AI Lab",
         ]
 
         self.roles = [
-            "BSc IT (Hons.) (Melit.) in Artificial Intelligence Graduate",
+            "AI Researcher & Developer",
             "Research Support Officer I",
             "MSc Artificial Intelligence Student",
         ]
 
-        self.dissertations = {
-            "BSc": "Accurate Name Extraction from News Video Graphics",
-            "MSc": "Cross-Paradigm Visual Perception for Municipal Monitoring in Malta",
-        }
-
         self.research_areas = [
-            "Computer Vision",
+            "Computer Vision (CV)",
             "Multimodal AI Systems",
-            "Applied Machine Learning",
             "AI Literacy",
         ]
 
-        self.research_projects = {
-            "EMBAT": "Enhancing Malta's Basemap with AI Technology",
-            "AICOM": "AI to Optimise Cleansing in Malta",
-        }
+        self.current_research = (
+            "Cross-Paradigm Visual Perception for Municipal Monitoring"
+        )
 
-        self.publications = [
-            {
-                "title": "A Hybrid Deterministic Framework for Named Entity Extraction in News Videos",
-                "publisher": "IEEE CAI 2026",
-            },
-        ]
+        self.research_projects = ["AICOM", "EMBAT"]
 ```
 
 ## Contact and Research Profiles
 
+[![Personal Email](https://img.shields.io/badge/Personal_Email-contact%40aflucas.com-2563EB?style=flat-square)](mailto:contact@aflucas.com)
 [![Research Email](https://img.shields.io/badge/Research_Email-andrea.f.lucas%40um.edu.mt-2563EB?style=flat-square)](mailto:andrea.f.lucas@um.edu.mt)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white)](https://aflucas.medium.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-aflucas26-0E66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aflucas26)
+[![Instagram](https://img.shields.io/badge/Instagram-aflucas26-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/aflucas26)
+[![Facebook](https://img.shields.io/badge/Facebook-aflucas26-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/aflucas26)
+[![X](https://img.shields.io/badge/X-aflucas26-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/aflucas26)
+[![Medium](https://img.shields.io/badge/Medium-aflucas-000000?style=flat-square&logo=medium&logoColor=white)](https://aflucas.medium.com/)
 [![IEEE Xplore](https://img.shields.io/badge/IEEE_Xplore-00629B?style=flat-square&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/author/266736498588056)
 [![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/search/cs?searchtype=author&query=Lucas%2C+A+F)
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?style=flat-square&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Andrea-Filiberto-Lucas)
