@@ -1,3 +1,15 @@
+<h1 align="center">
+  Hi, I'm Andrea Filiberto Lucas <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> - aka Fili
+</h1>
+
+## 🙋🏻‍♂️ About Me  
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=550&lines=Research+Support+Officer+@+UM;MSc+AI+Student+@+UM;BSc+IT+(Hons.)+(Melit.)+Graduate;AI+Researcher+%26+Developer" alt="Typing SVG">
+  </a>
+</p>
+
 <a href="https://github.com/AFLucas-UOM">
   <img src="./assets/profile-card.svg" alt="Andrea Filiberto Lucas — terminal-style GitHub profile card" width="100%">
 </a>
