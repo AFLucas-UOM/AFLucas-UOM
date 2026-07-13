@@ -63,7 +63,7 @@
   <text x="356" y="112" class="section">Overview</text>
   <text x="356" y="138" class="label">Alias</text><line x1="412" y1="133" x2="1008" y2="133" class="leader"/><text x="1050" y="138" class="value">Fili</text>
   <text x="356" y="164" class="label">Location</text><line x1="438" y1="159" x2="972" y2="159" class="leader"/><text x="1050" y="164" class="value">Malta, EU</text>
-  <text x="356" y="190" class="label">Uptime</text><line x1="421" y1="185" x2="844" y2="185" class="leader"/><text x="1050" y="190" class="value" id="uptime_data">21 years, 10 months, 16 days</text>
+  <text x="356" y="190" class="label">Uptime</text><line x1="421" y1="185" x2="844" y2="185" class="leader"/><text x="1050" y="190" class="value" id="uptime_data">21 years, 10 months, 17 days</text>
   <text x="356" y="216" class="label">Host</text><line x1="404" y1="211" x2="782" y2="211" class="leader"/><text x="1050" y="216" class="value">DAWL AI Lab @ University of Malta</text>
   <text x="356" y="242" class="label">Kernel</text><line x1="421" y1="237" x2="744" y2="237" class="leader"/><text x="1050" y="242" class="value">Research Support Officer &amp; MSc AI Student</text>
   <text x="356" y="268" class="label">OS</text><line x1="382" y1="263" x2="752" y2="263" class="leader"/><text x="1050" y="268" class="value">macOS 26 · Windows 11 · Ubuntu LTS 24.04</text>
@@ -90,5 +90,5 @@
   <text x="372" y="758" class="stats-label">Repos</text><line x1="422" y1="753" x2="626" y2="753" class="leader"/><text x="642" y="758" class="stats-value" id="repo_data">15</text>
   <text x="700" y="758" class="stats-label">Followers</text><line x1="785" y1="753" x2="1030" y2="753" class="leader"/><text x="1048" y="758" class="stats-value" id="follower_data">25</text>
   <text x="372" y="788" class="stats-label">Stars</text><line x1="422" y1="783" x2="626" y2="783" class="leader"/><text x="642" y="788" class="stats-value" id="star_data">21</text>
-  <text x="700" y="788" class="stats-label" id="contrib_label">Contribs.2026</text><line x1="820" y1="783" x2="1030" y2="783" class="leader"/><text x="1048" y="788" class="stats-value" id="contrib_data">393</text>
+  <text x="700" y="788" class="stats-label" id="contrib_label">Contribs.2026</text><line x1="820" y1="783" x2="1030" y2="783" class="leader"/><text x="1048" y="788" class="stats-value" id="contrib_data">395</text>
 </svg>
