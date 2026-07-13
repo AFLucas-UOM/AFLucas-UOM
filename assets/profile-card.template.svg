@@ -123,6 +123,6 @@
   {{CONTACT_ROWS}}
 
   <text x="356" y="540" class="section">GitHub Stats</text>
-  <rect x="356" y="554" width="646" height="76" rx="10" class="stats-box"/>
+  <rect x="356" y="554" width="706" height="76" rx="10" class="stats-box"/>
   {{STATS_ROWS}}
 </svg>
