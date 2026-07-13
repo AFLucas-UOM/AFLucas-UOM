@@ -71,7 +71,8 @@
     }
 
     .row {
-      font: 14px "TerminalMono", monospace;
+      font-family: "TerminalMono", monospace;
+      font-size: 14px;
     }
 
     .key {
@@ -83,7 +84,7 @@
       stroke: #6e7681;
       stroke-width: 1.2;
       stroke-linecap: round;
-      stroke-dasharray: 1 3;
+      stroke-dasharray: 1 2.5;
       shape-rendering: geometricPrecision;
     }
 
@@ -109,7 +110,7 @@
   <image x="28" y="66" width="300" height="400" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)" xlink:href="{{PROFILE_IMAGE_DATA_URI}}"/>
   <rect x="28" y="66" width="300" height="400" rx="12" class="portrait-stroke"/>
 
-  <!-- compact identity panel; top and bottom outer padding now match -->
+  <!-- compact identity panel -->
   <rect x="28" y="478" width="300" height="176" rx="12" class="info-box"/>
   <text x="42" y="513" class="left-name">Andrea Filiberto Lucas</text>
   <text x="42" y="538" class="left-role">AI Researcher &amp; Developer</text>
@@ -117,16 +118,17 @@
   <text x="42" y="606" class="left-link">web://aflucas.com</text>
 
   <!-- terminal content -->
-  <text x="356" y="86" class="section">Overview</text>
+  <text x="356" y="80" class="section">Overview</text>
   {{OVERVIEW_ROWS}}
 
-  <text x="356" y="304" class="section">Research</text>
+  <text x="356" y="286" class="section">Research</text>
   {{RESEARCH_ROWS}}
 
-  <text x="356" y="422" class="section">Contact</text>
+  <text x="356" y="382" class="section">Contact</text>
   {{CONTACT_ROWS}}
 
-  <text x="356" y="540" class="section">GitHub Stats</text>
-  <rect x="356" y="554" width="716" height="76" rx="10" class="stats-box"/>
+  <!-- aligned exactly with the identity panel on the left -->
+  <rect x="356" y="478" width="716" height="176" rx="12" class="stats-box"/>
+  <text x="372" y="507" class="section">GitHub Stats</text>
   {{STATS_ROWS}}
 </svg>

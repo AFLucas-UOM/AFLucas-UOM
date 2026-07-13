@@ -22,14 +22,16 @@ PROFILE_IMAGE = ASSETS / "profile-photo.jpg"
 IMAGE_PARTS = tuple(sorted((ROOT / ".github").glob("profile-image.hex.part*")))
 BIRTH_DATE = dt.date(2004, 8, 26)
 
-# SF Mono/Menlo at 14 px is approximately 8.4 px per character.
+# Approximate character widths for the terminal font at the rendered sizes.
 MONO_CHAR_WIDTH = 8.4
+COMPACT_MONO_CHAR_WIDTH = 7.8
+
 # The main values and the right statistics column share the same inner edge.
 # The surrounding stats panel ends at x=1072, leaving 16 px of inner padding.
 MAIN_VALUE_RIGHT = 1056
 LEFT_STAT_VALUE_RIGHT = 686
 RIGHT_STAT_VALUE_RIGHT = 1056
-LEADER_GAP = 6
+LEADER_GAP = 4
 
 
 def github_request(url: str, *, data: dict | None = None) -> dict | list:
@@ -155,13 +157,18 @@ def terminal_row(
     y: int,
     right_x: int,
     value_id: str | None = None,
+    font_size: float = 14,
+    char_width: float = MONO_CHAR_WIDTH,
 ) -> str:
     """Render a row whose value is anchored to an exact shared right edge."""
-    label_end = x + len(label) * MONO_CHAR_WIDTH
-    value_start = right_x - len(value) * MONO_CHAR_WIDTH
+    label_end = x + len(label) * char_width
+    value_start = right_x - len(value) * char_width
     leader_start = label_end + LEADER_GAP
     leader_end = value_start - LEADER_GAP
     value_id_attribute = f' id="{escape(value_id)}"' if value_id else ""
+    font_size_attribute = (
+        "" if font_size == 14 else f' style="font-size:{font_size:g}px"'
+    )
 
     leader = ""
     if leader_end > leader_start:
@@ -172,10 +179,12 @@ def terminal_row(
 
     return (
         "<g>"
-        f'<text x="{x}" y="{y}" class="row key">{escape(label)}</text>'
+        f'<text x="{x}" y="{y}" class="row key"{font_size_attribute}>'
+        f"{escape(label)}</text>"
         f"{leader}"
         f'<text x="{right_x}" y="{y}" text-anchor="end" '
-        f'class="row row-value"{value_id_attribute}>{escape(value)}</text>'
+        f'class="row row-value"{value_id_attribute}{font_size_attribute}>'
+        f"{escape(value)}</text>"
         "</g>"
     )
 
@@ -187,6 +196,8 @@ def render_rows(
     x: int = 356,
     step: int = 25,
     right_x: int = MAIN_VALUE_RIGHT,
+    font_size: float = 14,
+    char_width: float = MONO_CHAR_WIDTH,
 ) -> str:
     rows = []
     for index, (label, value, value_id) in enumerate(items):
@@ -198,6 +209,8 @@ def render_rows(
                 y=start_y + index * step,
                 right_x=right_x,
                 value_id=value_id,
+                font_size=font_size,
+                char_width=char_width,
             )
         )
     return "\n  ".join(rows)
@@ -206,13 +219,21 @@ def render_rows(
 def render_profile_card(values: dict[str, str]) -> None:
     template = SVG_TEMPLATE.read_text(encoding="utf-8")
 
-    overview_rows = render_rows(
+    overview_core_rows = render_rows(
         [
             ("Alias", "Fili", None),
             ("Location", "Malta, EU", None),
             ("Uptime", values["uptime"], "uptime_data"),
             ("Host", "DAWL AI Lab @ University of Malta", None),
             ("Kernel", "Research Support Officer & MSc AI Student", None),
+        ],
+        start_y=104,
+        step=22,
+    )
+
+    # One empty terminal line separates the system overview from the passions.
+    passion_rows = render_rows(
+        [
             (
                 "Passion.Creativity",
                 "Piano · Vinyl Collecting · Digital Design · PC Building",
@@ -224,8 +245,12 @@ def render_profile_card(values: dict[str, str]) -> None:
                 None,
             ),
         ],
-        start_y=112,
+        start_y=236,
+        step=22,
+        font_size=13,
+        char_width=COMPACT_MONO_CHAR_WIDTH,
     )
+    overview_rows = f"{overview_core_rows}\n  {passion_rows}"
 
     research_rows = render_rows(
         [
@@ -241,7 +266,8 @@ def render_profile_card(values: dict[str, str]) -> None:
             ),
             ("Research.Projects", "AICOM & EMBAT", None),
         ],
-        start_y=330,
+        start_y=310,
+        step=22,
     )
 
     contact_rows = render_rows(
@@ -250,7 +276,8 @@ def render_profile_card(values: dict[str, str]) -> None:
             ("Email.Research", "andrea.f.lucas@um.edu.mt", None),
             ("Social.LinkedIn", "aflucas26", None),
         ],
-        start_y=448,
+        start_y=406,
+        step=22,
     )
 
     stats_rows = "\n  ".join(
@@ -259,7 +286,7 @@ def render_profile_card(values: dict[str, str]) -> None:
                 "Followers",
                 values["followers"],
                 x=372,
-                y=581,
+                y=552,
                 right_x=LEFT_STAT_VALUE_RIGHT,
                 value_id="follower_data",
             ),
@@ -267,7 +294,7 @@ def render_profile_card(values: dict[str, str]) -> None:
                 "Stars",
                 values["stars"],
                 x=714,
-                y=581,
+                y=552,
                 right_x=RIGHT_STAT_VALUE_RIGHT,
                 value_id="star_data",
             ),
@@ -275,7 +302,7 @@ def render_profile_card(values: dict[str, str]) -> None:
                 "Public.Repos",
                 values["repos"],
                 x=372,
-                y=611,
+                y=602,
                 right_x=LEFT_STAT_VALUE_RIGHT,
                 value_id="repo_data",
             ),
@@ -283,7 +310,7 @@ def render_profile_card(values: dict[str, str]) -> None:
                 f"Contrib.{values['year']}",
                 values["contributions"],
                 x=714,
-                y=611,
+                y=602,
                 right_x=RIGHT_STAT_VALUE_RIGHT,
                 value_id="contrib_data",
             ),
