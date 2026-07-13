@@ -24,9 +24,12 @@ BIRTH_DATE = dt.date(2004, 8, 26)
 
 # SF Mono/Menlo at 14 px is approximately 8.4 px per character.
 MONO_CHAR_WIDTH = 8.4
-MAIN_VALUE_RIGHT = 1046
-LEFT_STAT_VALUE_RIGHT = 682
-RIGHT_STAT_VALUE_RIGHT = 1046
+# The main values and the right statistics column share the same inner edge.
+# The surrounding stats panel ends at x=1072, leaving 16 px of inner padding.
+MAIN_VALUE_RIGHT = 1056
+LEFT_STAT_VALUE_RIGHT = 686
+RIGHT_STAT_VALUE_RIGHT = 1056
+LEADER_GAP = 6
 
 
 def github_request(url: str, *, data: dict | None = None) -> dict | list:
@@ -156,8 +159,8 @@ def terminal_row(
     """Render a row whose value is anchored to an exact shared right edge."""
     label_end = x + len(label) * MONO_CHAR_WIDTH
     value_start = right_x - len(value) * MONO_CHAR_WIDTH
-    leader_start = label_end + 10
-    leader_end = value_start - 10
+    leader_start = label_end + LEADER_GAP
+    leader_end = value_start - LEADER_GAP
     value_id_attribute = f' id="{escape(value_id)}"' if value_id else ""
 
     leader = ""
