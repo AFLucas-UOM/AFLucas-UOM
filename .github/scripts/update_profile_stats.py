@@ -6,6 +6,7 @@ from __future__ import annotations
 import base64
 import calendar
 import datetime as dt
+from html import escape
 import json
 import os
 from pathlib import Path
@@ -20,6 +21,9 @@ SVG_OUTPUT = ASSETS / "profile-card.svg"
 PROFILE_IMAGE = ASSETS / "profile-photo.jpg"
 IMAGE_PARTS = tuple(sorted((ROOT / ".github").glob("profile-image.hex.part*")))
 BIRTH_DATE = dt.date(2004, 8, 26)
+
+ROW_WIDTH = 82
+STAT_ROW_WIDTH = 35
 
 
 def github_request(url: str, *, data: dict | None = None) -> dict | list:
@@ -52,6 +56,21 @@ def ensure_profile_image() -> None:
         part.read_text(encoding="ascii").strip() for part in IMAGE_PARTS
     )
     PROFILE_IMAGE.write_bytes(bytes.fromhex(encoded_hex))
+
+
+def profile_image_data_uri() -> str:
+    ensure_profile_image()
+    image_bytes = PROFILE_IMAGE.read_bytes()
+
+    if image_bytes.startswith(b"\x89PNG\r\n\x1a\n"):
+        mime_type = "image/png"
+    elif image_bytes.startswith(b"\xff\xd8\xff"):
+        mime_type = "image/jpeg"
+    else:
+        raise ValueError("Unsupported profile image format; expected PNG or JPEG.")
+
+    encoded = base64.b64encode(image_bytes).decode("ascii")
+    return f"data:{mime_type};base64,{encoded}"
 
 
 def fetch_all_public_repositories() -> list[dict]:
@@ -122,19 +141,144 @@ def age_string(birth_date: dt.date) -> str:
     return f"{unit(years, 'year')}, {unit(months, 'month')}, {unit(days, 'day')}"
 
 
+def terminal_row(
+    label: str,
+    value: str,
+    *,
+    x: int,
+    y: int,
+    width: int,
+    value_id: str | None = None,
+) -> str:
+    """Render one terminal row with uniform dotted leaders and a fixed right edge."""
+    dots = max(width - len(label) - len(value) - 2, 3)
+    value_id_attribute = f' id="{escape(value_id)}"' if value_id else ""
+
+    return (
+        f'<text x="{x}" y="{y}" class="row">'
+        f'<tspan class="key">{escape(label)}</tspan>'
+        f'<tspan class="dots"> {"." * dots} </tspan>'
+        f'<tspan class="row-value"{value_id_attribute}>{escape(value)}</tspan>'
+        f'</text>'
+    )
+
+
+def render_rows(
+    items: list[tuple[str, str, str | None]],
+    *,
+    start_y: int,
+    x: int = 356,
+    step: int = 25,
+    width: int = ROW_WIDTH,
+) -> str:
+    rows = []
+    for index, (label, value, value_id) in enumerate(items):
+        rows.append(
+            terminal_row(
+                label,
+                value,
+                x=x,
+                y=start_y + index * step,
+                width=width,
+                value_id=value_id,
+            )
+        )
+    return "\n  ".join(rows)
+
+
 def render_profile_card(values: dict[str, str]) -> None:
-    ensure_profile_image()
     template = SVG_TEMPLATE.read_text(encoding="utf-8")
-    image_base64 = base64.b64encode(PROFILE_IMAGE.read_bytes()).decode("ascii")
+
+    overview_rows = render_rows(
+        [
+            ("Alias", "Fili", None),
+            ("Location", "Malta, EU", None),
+            ("Uptime", values["uptime"], "uptime_data"),
+            ("Host", "DAWL AI Lab @ University of Malta", None),
+            ("Kernel", "Research Support Officer & MSc AI Student", None),
+            (
+                "Passion.Creativity",
+                "Piano · Vinyl Collecting · Digital Design · PC Building",
+                None,
+            ),
+            (
+                "Passion.Community",
+                "GDG Malta Marketing Lead · Medium Writer",
+                None,
+            ),
+        ],
+        start_y=112,
+    )
+
+    research_rows = render_rows(
+        [
+            (
+                "Research.Areas",
+                "Computer Vision (CV) · Multimodal AI Systems · AI Literacy",
+                None,
+            ),
+            (
+                "Research.Current",
+                "Cross-Paradigm Visual Perception for Municipal Monitoring",
+                None,
+            ),
+            ("Research.Projects", "AICOM & EMBAT", None),
+        ],
+        start_y=330,
+    )
+
+    contact_rows = render_rows(
+        [
+            ("Email.Personal", "contact@aflucas.com", None),
+            ("Email.Research", "andrea.f.lucas@um.edu.mt", None),
+            ("Social.LinkedIn", "aflucas26", None),
+        ],
+        start_y=448,
+    )
+
+    stats_rows = "\n  ".join(
+        [
+            terminal_row(
+                "Followers",
+                values["followers"],
+                x=372,
+                y=581,
+                width=STAT_ROW_WIDTH,
+                value_id="follower_data",
+            ),
+            terminal_row(
+                "Stars",
+                values["stars"],
+                x=714,
+                y=581,
+                width=STAT_ROW_WIDTH,
+                value_id="star_data",
+            ),
+            terminal_row(
+                "Public.Repos",
+                values["repos"],
+                x=372,
+                y=611,
+                width=STAT_ROW_WIDTH,
+                value_id="repo_data",
+            ),
+            terminal_row(
+                f"Contrib.{values['year']}",
+                values["contributions"],
+                x=714,
+                y=611,
+                width=STAT_ROW_WIDTH,
+                value_id="contrib_data",
+            ),
+        ]
+    )
 
     replacements = {
-        "{{PROFILE_IMAGE_BASE64}}": image_base64,
-        "{{UPTIME}}": values["uptime"],
-        "{{REPO_DATA}}": values["repos"],
-        "{{FOLLOWER_DATA}}": values["followers"],
-        "{{STAR_DATA}}": values["stars"],
-        "{{CONTRIB_LABEL}}": values["contrib_label"],
-        "{{CONTRIB_DATA}}": values["contrib_data"],
+        "{{PROFILE_IMAGE_DATA_URI}}": profile_image_data_uri(),
+        "{{OVERVIEW_ROWS}}": overview_rows,
+        "{{RESEARCH_ROWS}}": research_rows,
+        "{{CONTACT_ROWS}}": contact_rows,
+        "{{STATS_ROWS}}": stats_rows,
     }
 
     for token, replacement in replacements.items():
@@ -160,8 +304,8 @@ def main() -> None:
         "repos": f"{int(user['public_repos']):,}",
         "followers": f"{int(user['followers']):,}",
         "stars": f"{stars:,}",
-        "contrib_label": f"Contribs.{year}",
-        "contrib_data": f"{contributions:,}",
+        "year": str(year),
+        "contributions": f"{contributions:,}",
         "uptime": age_string(BIRTH_DATE),
     }
 
