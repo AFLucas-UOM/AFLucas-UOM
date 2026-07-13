@@ -22,8 +22,8 @@ PROFILE_IMAGE = ASSETS / "profile-photo.jpg"
 IMAGE_PARTS = tuple(sorted((ROOT / ".github").glob("profile-image.hex.part*")))
 BIRTH_DATE = dt.date(2004, 8, 26)
 
-ROW_WIDTH = 82
-STAT_ROW_WIDTH = 35
+ROW_WIDTH = 84
+STAT_ROW_WIDTH = 40
 
 
 def github_request(url: str, *, data: dict | None = None) -> dict | list:
@@ -249,7 +249,7 @@ def render_profile_card(values: dict[str, str]) -> None:
             terminal_row(
                 "Stars",
                 values["stars"],
-                x=686,
+                x=714,
                 y=581,
                 width=STAT_ROW_WIDTH,
                 value_id="star_data",
@@ -265,7 +265,7 @@ def render_profile_card(values: dict[str, str]) -> None:
             terminal_row(
                 f"Contrib.{values['year']}",
                 values["contributions"],
-                x=686,
+                x=714,
                 y=611,
                 width=STAT_ROW_WIDTH,
                 value_id="contrib_data",
