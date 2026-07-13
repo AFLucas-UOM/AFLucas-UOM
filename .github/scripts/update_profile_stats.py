@@ -22,8 +22,11 @@ PROFILE_IMAGE = ASSETS / "profile-photo.jpg"
 IMAGE_PARTS = tuple(sorted((ROOT / ".github").glob("profile-image.hex.part*")))
 BIRTH_DATE = dt.date(2004, 8, 26)
 
-ROW_WIDTH = 84
-STAT_ROW_WIDTH = 40
+# SF Mono/Menlo at 14 px is approximately 8.4 px per character.
+MONO_CHAR_WIDTH = 8.4
+MAIN_VALUE_RIGHT = 1046
+LEFT_STAT_VALUE_RIGHT = 682
+RIGHT_STAT_VALUE_RIGHT = 1046
 
 
 def github_request(url: str, *, data: dict | None = None) -> dict | list:
@@ -147,19 +150,30 @@ def terminal_row(
     *,
     x: int,
     y: int,
-    width: int,
+    right_x: int,
     value_id: str | None = None,
 ) -> str:
-    """Render one terminal row with uniform dotted leaders and a fixed right edge."""
-    dots = max(width - len(label) - len(value) - 2, 3)
+    """Render a row whose value is anchored to an exact shared right edge."""
+    label_end = x + len(label) * MONO_CHAR_WIDTH
+    value_start = right_x - len(value) * MONO_CHAR_WIDTH
+    leader_start = label_end + 10
+    leader_end = value_start - 10
     value_id_attribute = f' id="{escape(value_id)}"' if value_id else ""
 
+    leader = ""
+    if leader_end > leader_start:
+        leader = (
+            f'<line x1="{leader_start:.1f}" y1="{y - 4}" '
+            f'x2="{leader_end:.1f}" y2="{y - 4}" class="leader"/>'
+        )
+
     return (
-        f'<text x="{x}" y="{y}" class="row">'
-        f'<tspan class="key">{escape(label)}</tspan>'
-        f'<tspan class="dots"> {"." * dots} </tspan>'
-        f'<tspan class="row-value"{value_id_attribute}>{escape(value)}</tspan>'
-        f'</text>'
+        "<g>"
+        f'<text x="{x}" y="{y}" class="row key">{escape(label)}</text>'
+        f"{leader}"
+        f'<text x="{right_x}" y="{y}" text-anchor="end" '
+        f'class="row row-value"{value_id_attribute}>{escape(value)}</text>'
+        "</g>"
     )
 
 
@@ -169,7 +183,7 @@ def render_rows(
     start_y: int,
     x: int = 356,
     step: int = 25,
-    width: int = ROW_WIDTH,
+    right_x: int = MAIN_VALUE_RIGHT,
 ) -> str:
     rows = []
     for index, (label, value, value_id) in enumerate(items):
@@ -179,7 +193,7 @@ def render_rows(
                 value,
                 x=x,
                 y=start_y + index * step,
-                width=width,
+                right_x=right_x,
                 value_id=value_id,
             )
         )
@@ -243,7 +257,7 @@ def render_profile_card(values: dict[str, str]) -> None:
                 values["followers"],
                 x=372,
                 y=581,
-                width=STAT_ROW_WIDTH,
+                right_x=LEFT_STAT_VALUE_RIGHT,
                 value_id="follower_data",
             ),
             terminal_row(
@@ -251,7 +265,7 @@ def render_profile_card(values: dict[str, str]) -> None:
                 values["stars"],
                 x=714,
                 y=581,
-                width=STAT_ROW_WIDTH,
+                right_x=RIGHT_STAT_VALUE_RIGHT,
                 value_id="star_data",
             ),
             terminal_row(
@@ -259,7 +273,7 @@ def render_profile_card(values: dict[str, str]) -> None:
                 values["repos"],
                 x=372,
                 y=611,
-                width=STAT_ROW_WIDTH,
+                right_x=LEFT_STAT_VALUE_RIGHT,
                 value_id="repo_data",
             ),
             terminal_row(
@@ -267,7 +281,7 @@ def render_profile_card(values: dict[str, str]) -> None:
                 values["contributions"],
                 x=714,
                 y=611,
-                width=STAT_ROW_WIDTH,
+                right_x=RIGHT_STAT_VALUE_RIGHT,
                 value_id="contrib_data",
             ),
         ]
