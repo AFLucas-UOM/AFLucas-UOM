@@ -1,94 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="820" viewBox="0 0 1100 820" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="680" viewBox="0 0 1100 680" role="img" aria-labelledby="title desc">
   <title id="title">Andrea Filiberto Lucas GitHub profile terminal card</title>
-  <desc id="desc">Terminal-inspired GitHub profile card with portrait, profile information, research, contact details and GitHub statistics.</desc>
+  <desc id="desc">A clean macOS Terminal-inspired GitHub profile card with portrait, overview, research, contact details and GitHub statistics.</desc>
+
   <defs>
-    <clipPath id="portraitClip"><rect x="28" y="58" width="300" height="430" rx="16"/></clipPath>
-    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#0b1220"/>
-    </linearGradient>
+    <clipPath id="portraitClip">
+      <rect x="28" y="66" width="300" height="400" rx="12"/>
+    </clipPath>
   </defs>
+
   <style>
     @font-face {
-      font-family: "ConsolasFallback";
-      src: local("Consolas"), local("Menlo"), local("Monaco"), local("Liberation Mono");
+      font-family: "TerminalMono";
+      src: local("SFMono-Regular"), local("SF Mono"), local("Menlo"), local("Monaco"), local("Consolas"), local("Liberation Mono");
       font-display: swap;
     }
+
     text, tspan { white-space: pre; }
+
     .bg { fill: #0d1117; }
-    .frame { fill: url(#panelGrad); stroke: #30363d; stroke-width: 1.5; }
-    .titlebar { fill: #161b22; stroke: #30363d; stroke-width: 1.2; }
-    .window-dot-red { fill: #ff5f56; }
-    .window-dot-yellow { fill: #ffbd2e; }
-    .window-dot-green { fill: #27c93f; }
-    .title { font: 600 13px "ConsolasFallback", monospace; fill: #8b949e; }
-    .portrait-stroke { fill: none; stroke: #30363d; stroke-width: 1.5; }
-    .portrait-info-box { fill: #161b22; stroke: #30363d; stroke-width: 1.2; }
-    .left-name { font: 700 23px "Segoe UI", Arial, sans-serif; fill: #f0f6fc; }
-    .left-role { font: 600 16px "Segoe UI", Arial, sans-serif; fill: #d2a8ff; }
-    .left-meta { font: 500 14px "Segoe UI", Arial, sans-serif; fill: #c9d1d9; }
-    .header { font: 700 18px "ConsolasFallback", monospace; fill: #3fb950; }
-    .section { font: 700 17px "ConsolasFallback", monospace; fill: #f0f6fc; }
-    .label { font: 700 14px "ConsolasFallback", monospace; fill: #ffa657; }
-    .value { font: 14px "ConsolasFallback", monospace; fill: #a5d6ff; text-anchor: end; }
-    .value.small { font-size: 13px; }
-    .leader { stroke: #6e7681; stroke-width: 1.6; stroke-linecap: round; stroke-dasharray: 1 5; }
+    .window { fill: #0b1220; stroke: #30363d; stroke-width: 1.4; }
+    .titlebar { fill: #161b22; }
     .divider { stroke: #30363d; stroke-width: 1; }
-    .stats-box { fill: #111827; stroke: #30363d; stroke-width: 1.2; }
-    .stats-label { font: 700 14px "ConsolasFallback", monospace; fill: #ffa657; }
-    .stats-value { font: 700 15px "ConsolasFallback", monospace; fill: #f0f6fc; text-anchor: end; }
+
+    .dot-red { fill: #ff5f57; }
+    .dot-yellow { fill: #febc2e; }
+    .dot-green { fill: #28c840; }
+
+    .title {
+      font: 600 13px "TerminalMono", monospace;
+      fill: #c9d1d9;
+    }
+
+    .portrait-stroke {
+      fill: none;
+      stroke: #30363d;
+      stroke-width: 1.2;
+    }
+
+    .info-box {
+      fill: #111827;
+      stroke: #30363d;
+      stroke-width: 1.1;
+    }
+
+    .left-name {
+      font: 700 21px "Segoe UI", Arial, sans-serif;
+      fill: #f0f6fc;
+    }
+
+    .left-role {
+      font: 600 15px "Segoe UI", Arial, sans-serif;
+      fill: #d2a8ff;
+    }
+
+    .left-meta {
+      font: 500 13.5px "Segoe UI", Arial, sans-serif;
+      fill: #c9d1d9;
+    }
+
+    .section {
+      font: 700 17px "TerminalMono", monospace;
+      fill: #f0f6fc;
+    }
+
+    .row {
+      font: 14px "TerminalMono", monospace;
+    }
+
+    .key {
+      fill: #ffa657;
+      font-weight: 700;
+    }
+
+    .dots {
+      fill: #6e7681;
+    }
+
+    .row-value {
+      fill: #a5d6ff;
+    }
+
+    .stats-box {
+      fill: #111827;
+      stroke: #30363d;
+      stroke-width: 1.1;
+    }
   </style>
 
-  <rect width="1100" height="820" class="bg"/>
-  <rect x="10" y="10" width="1080" height="800" rx="18" class="frame"/>
-  <rect x="10" y="10" width="1080" height="38" rx="18" class="titlebar"/>
-  <circle cx="34" cy="29" r="6" class="window-dot-red"/>
-  <circle cx="54" cy="29" r="6" class="window-dot-yellow"/>
-  <circle cx="74" cy="29" r="6" class="window-dot-green"/>
-  <text x="550" y="33" text-anchor="middle" class="title">fili@aflucas.com  —  profile</text>
+  <rect width="1100" height="680" class="bg"/>
+  <rect x="10" y="10" width="1080" height="660" rx="14" class="window"/>
 
-  <image x="28" y="58" width="300" height="430" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)" xlink:href="data:image/jpeg;base64,{{PROFILE_IMAGE_BASE64}}"/>
-  <rect x="28" y="58" width="300" height="430" rx="16" class="portrait-stroke"/>
+  <!-- macOS-style title bar: rounded only at the top -->
+  <rect x="10" y="10" width="1080" height="40" rx="14" class="titlebar"/>
+  <rect x="10" y="34" width="1080" height="16" class="titlebar"/>
+  <line x1="10" y1="50" x2="1090" y2="50" class="divider"/>
 
-  <rect x="28" y="500" width="300" height="274" rx="16" class="portrait-info-box"/>
-  <text x="46" y="535" class="left-name">Andrea Filiberto Lucas</text>
-  <text x="46" y="563" class="left-role">AI Researcher &amp; Developer</text>
-  <text x="46" y="603" class="left-meta">University of Malta · Dept. of AI</text>
-  <text x="46" y="631" class="left-meta">aflucas.com</text>
+  <circle cx="32" cy="30" r="4.5" class="dot-red"/>
+  <circle cx="47" cy="30" r="4.5" class="dot-yellow"/>
+  <circle cx="62" cy="30" r="4.5" class="dot-green"/>
+  <text x="550" y="34" text-anchor="middle" class="title">fili@aflucas.com</text>
 
-  <text x="356" y="80" class="header">fili@aflucas.com</text>
-  <line x1="515" y1="73" x2="1062" y2="73" class="divider"/>
+  <!-- portrait; original background is preserved -->
+  <image x="28" y="66" width="300" height="400" preserveAspectRatio="xMidYMid slice" clip-path="url(#portraitClip)" xlink:href="{{PROFILE_IMAGE_DATA_URI}}"/>
+  <rect x="28" y="66" width="300" height="400" rx="12" class="portrait-stroke"/>
 
-  <text x="356" y="112" class="section">Overview</text>
-  <text x="356" y="138" class="label">Alias</text><line x1="412" y1="133" x2="1008" y2="133" class="leader"/><text x="1050" y="138" class="value">Fili</text>
-  <text x="356" y="164" class="label">Location</text><line x1="438" y1="159" x2="972" y2="159" class="leader"/><text x="1050" y="164" class="value">Malta, EU</text>
-  <text x="356" y="190" class="label">Uptime</text><line x1="421" y1="185" x2="844" y2="185" class="leader"/><text x="1050" y="190" class="value" id="uptime_data">{{UPTIME}}</text>
-  <text x="356" y="216" class="label">Host</text><line x1="404" y1="211" x2="782" y2="211" class="leader"/><text x="1050" y="216" class="value">DAWL AI Lab @ University of Malta</text>
-  <text x="356" y="242" class="label">Kernel</text><line x1="421" y1="237" x2="744" y2="237" class="leader"/><text x="1050" y="242" class="value">Research Support Officer &amp; MSc AI Student</text>
-  <text x="356" y="268" class="label">OS</text><line x1="382" y1="263" x2="752" y2="263" class="leader"/><text x="1050" y="268" class="value">macOS 26 · Windows 11 · Ubuntu LTS 24.04</text>
+  <!-- compact identity panel -->
+  <rect x="28" y="478" width="300" height="160" rx="12" class="info-box"/>
+  <text x="42" y="513" class="left-name">Andrea Filiberto Lucas</text>
+  <text x="42" y="538" class="left-role">AI Researcher &amp; Developer</text>
+  <text x="42" y="578" class="left-meta">University of Malta · Dept. of AI</text>
+  <text x="42" y="603" class="left-meta">web · aflucas.com</text>
 
-  <text x="356" y="308" class="section">Languages &amp; Passions</text>
-  <text x="356" y="334" class="label">Languages.TopProgramming</text><line x1="558" y1="329" x2="746" y2="329" class="leader"/><text x="1050" y="334" class="value">Python · JS/TS · Java · C/C++ · C#</text>
-  <text x="356" y="360" class="label">Languages.Computer</text><line x1="520" y1="355" x2="782" y2="355" class="leader"/><text x="1050" y="360" class="value">HTML · CSS · JSON · LaTeX · YAML</text>
-  <text x="356" y="386" class="label">Languages.Real</text><line x1="486" y1="381" x2="918" y2="381" class="leader"/><text x="1050" y="386" class="value">English · Maltese</text>
-  <text x="356" y="412" class="label">Passion.Creativity</text><line x1="512" y1="407" x2="604" y2="407" class="leader"/><text x="1050" y="412" class="value">Piano · Vinyl Collecting · Digital Design · PC Building</text>
-  <text x="356" y="438" class="label">Passion.Community</text><line x1="520" y1="433" x2="722" y2="433" class="leader"/><text x="1050" y="438" class="value">GDG Malta Marketing Lead · Medium Writer</text>
+  <!-- terminal content -->
+  <text x="356" y="86" class="section">Overview</text>
+  {{OVERVIEW_ROWS}}
 
-  <text x="356" y="480" class="section">Research</text>
-  <text x="356" y="506" class="label">Research.Areas</text><line x1="486" y1="501" x2="646" y2="501" class="leader"/><text x="1050" y="506" class="value small">Computer Vision (CV) · Multimodal AI Systems · AI Literacy</text>
-  <text x="356" y="532" class="label">Research.Current</text><line x1="503" y1="527" x2="602" y2="527" class="leader"/><text x="1050" y="532" class="value small">Cross-Paradigm Visual Perception for Municipal Monitoring</text>
-  <text x="356" y="558" class="label">Research.Projects</text><line x1="512" y1="553" x2="918" y2="553" class="leader"/><text x="1050" y="558" class="value">AICOM &amp; EMBAT</text>
+  <text x="356" y="304" class="section">Research</text>
+  {{RESEARCH_ROWS}}
 
-  <text x="356" y="600" class="section">Contact</text>
-  <text x="356" y="626" class="label">Email.Personal</text><line x1="486" y1="621" x2="880" y2="621" class="leader"/><text x="1050" y="626" class="value">contact@aflucas.com</text>
-  <text x="356" y="652" class="label">Email.Research</text><line x1="486" y1="647" x2="818" y2="647" class="leader"/><text x="1050" y="652" class="value">andrea.f.lucas@um.edu.mt</text>
-  <text x="356" y="678" class="label">Social.LinkedIn</text><line x1="494" y1="673" x2="970" y2="673" class="leader"/><text x="1050" y="678" class="value">aflucas26</text>
+  <text x="356" y="422" class="section">Contact</text>
+  {{CONTACT_ROWS}}
 
-  <text x="356" y="720" class="section">GitHub Stats</text>
-  <rect x="356" y="734" width="694" height="68" rx="10" class="stats-box"/>
-  <text x="372" y="758" class="stats-label">Repos</text><line x1="422" y1="753" x2="626" y2="753" class="leader"/><text x="642" y="758" class="stats-value" id="repo_data">{{REPO_DATA}}</text>
-  <text x="700" y="758" class="stats-label">Followers</text><line x1="785" y1="753" x2="1030" y2="753" class="leader"/><text x="1048" y="758" class="stats-value" id="follower_data">{{FOLLOWER_DATA}}</text>
-  <text x="372" y="788" class="stats-label">Stars</text><line x1="422" y1="783" x2="626" y2="783" class="leader"/><text x="642" y="788" class="stats-value" id="star_data">{{STAR_DATA}}</text>
-  <text x="700" y="788" class="stats-label" id="contrib_label">{{CONTRIB_LABEL}}</text><line x1="820" y1="783" x2="1030" y2="783" class="leader"/><text x="1048" y="788" class="stats-value" id="contrib_data">{{CONTRIB_DATA}}</text>
+  <text x="356" y="540" class="section">GitHub Stats</text>
+  <rect x="356" y="554" width="694" height="76" rx="10" class="stats-box"/>
+  {{STATS_ROWS}}
 </svg>
