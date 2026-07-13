@@ -23,7 +23,7 @@ IMAGE_PARTS = tuple(sorted((ROOT / ".github").glob("profile-image.hex.part*")))
 BIRTH_DATE = dt.date(2004, 8, 26)
 
 ROW_WIDTH = 82
-STAT_ROW_WIDTH = 40
+STAT_ROW_WIDTH = 35
 
 
 def github_request(url: str, *, data: dict | None = None) -> dict | list:
@@ -214,7 +214,7 @@ def render_profile_card(values: dict[str, str]) -> None:
         [
             (
                 "Research.Areas",
-                "Computer Vision (CV) · Multimodal AI Systems · AI Literacy",
+                "Computer Vision · Multimodal AI Systems · AI Literacy",
                 None,
             ),
             (
@@ -249,7 +249,7 @@ def render_profile_card(values: dict[str, str]) -> None:
             terminal_row(
                 "Stars",
                 values["stars"],
-                x=714,
+                x=686,
                 y=581,
                 width=STAT_ROW_WIDTH,
                 value_id="star_data",
@@ -265,7 +265,7 @@ def render_profile_card(values: dict[str, str]) -> None:
             terminal_row(
                 f"Contrib.{values['year']}",
                 values["contributions"],
-                x=714,
+                x=686,
                 y=611,
                 width=STAT_ROW_WIDTH,
                 value_id="contrib_data",
