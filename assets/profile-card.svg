@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="680" viewBox="0 0 1100 680" role="img" aria-labelledby="title desc">
   <title id="title">Andrea Filiberto Lucas GitHub profile terminal card</title>
-  <desc id="desc">A clean macOS Terminal-inspired GitHub profile card with portrait, overview, research, contact details and GitHub statistics.</desc>
+  <desc id="desc">A clean macOS Terminal-inspired GitHub profile card using GitHub's dark colour palette.</desc>
 
   <defs>
     <clipPath id="portraitClip">
@@ -18,8 +18,9 @@
 
     text, tspan { white-space: pre; }
 
+    /* GitHub dark default palette */
     .bg { fill: #0d1117; }
-    .window { fill: #0b1220; stroke: #30363d; stroke-width: 1.4; }
+    .window { fill: #010409; stroke: #30363d; stroke-width: 1.4; }
     .titlebar { fill: #161b22; }
     .divider { stroke: #30363d; stroke-width: 1; }
 
@@ -29,7 +30,7 @@
 
     .title {
       font: 600 13px "TerminalMono", monospace;
-      fill: #c9d1d9;
+      fill: #8b949e;
     }
 
     .portrait-stroke {
@@ -38,8 +39,9 @@
       stroke-width: 1.2;
     }
 
-    .info-box {
-      fill: #111827;
+    .info-box,
+    .stats-box {
+      fill: #0d1117;
       stroke: #30363d;
       stroke-width: 1.1;
     }
@@ -51,12 +53,17 @@
 
     .left-role {
       font: 600 15px "Segoe UI", Arial, sans-serif;
-      fill: #d2a8ff;
+      fill: #bc8cff;
     }
 
     .left-meta {
       font: 500 13.5px "Segoe UI", Arial, sans-serif;
       fill: #c9d1d9;
+    }
+
+    .left-link {
+      font: 600 14px "TerminalMono", monospace;
+      fill: #58a6ff;
     }
 
     .section {
@@ -69,22 +76,16 @@
     }
 
     .key {
-      fill: #ffa657;
+      fill: #d29922;
       font-weight: 700;
     }
 
     .dots {
-      fill: #6e7681;
+      fill: #484f58;
     }
 
     .row-value {
-      fill: #a5d6ff;
-    }
-
-    .stats-box {
-      fill: #111827;
-      stroke: #30363d;
-      stroke-width: 1.1;
+      fill: #79c0ff;
     }
   </style>
 
@@ -110,7 +111,7 @@
   <text x="42" y="513" class="left-name">Andrea Filiberto Lucas</text>
   <text x="42" y="538" class="left-role">AI Researcher &amp; Developer</text>
   <text x="42" y="578" class="left-meta">University of Malta · Dept. of AI</text>
-  <text x="42" y="603" class="left-meta">web · aflucas.com</text>
+  <text x="42" y="606" class="left-link">web://aflucas.com</text>
 
   <!-- terminal content -->
   <text x="356" y="86" class="section">Overview</text>
@@ -134,8 +135,8 @@
 
   <text x="356" y="540" class="section">GitHub Stats</text>
   <rect x="356" y="554" width="694" height="76" rx="10" class="stats-box"/>
-  <text x="372" y="581" class="row"><tspan class="key">Followers</tspan><tspan class="dots"> ...................... </tspan><tspan class="row-value" id="follower_data">25</tspan></text>
-  <text x="714" y="581" class="row"><tspan class="key">Stars</tspan><tspan class="dots"> .......................... </tspan><tspan class="row-value" id="star_data">21</tspan></text>
-  <text x="372" y="611" class="row"><tspan class="key">Public.Repos</tspan><tspan class="dots"> ................... </tspan><tspan class="row-value" id="repo_data">15</tspan></text>
-  <text x="714" y="611" class="row"><tspan class="key">Contrib.2026</tspan><tspan class="dots"> .................. </tspan><tspan class="row-value" id="contrib_data">397</tspan></text>
+  <text x="372" y="581" class="row"><tspan class="key">Followers</tspan><tspan class="dots"> ........................... </tspan><tspan class="row-value" id="follower_data">25</tspan></text>
+  <text x="714" y="581" class="row"><tspan class="key">Stars</tspan><tspan class="dots"> ............................... </tspan><tspan class="row-value" id="star_data">21</tspan></text>
+  <text x="372" y="611" class="row"><tspan class="key">Public.Repos</tspan><tspan class="dots"> ........................ </tspan><tspan class="row-value" id="repo_data">15</tspan></text>
+  <text x="714" y="611" class="row"><tspan class="key">Contrib.2026</tspan><tspan class="dots"> ....................... </tspan><tspan class="row-value" id="contrib_data">397</tspan></text>
 </svg>
