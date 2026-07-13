@@ -114,28 +114,28 @@
 
   <!-- terminal content -->
   <text x="356" y="86" class="section">Overview</text>
-  <text x="356" y="112" class="row"><tspan class="key">Alias</tspan><tspan class="dots"> ....................................................................... </tspan><tspan class="row-value">Fili</tspan></text>
-  <text x="356" y="137" class="row"><tspan class="key">Location</tspan><tspan class="dots"> ............................................................... </tspan><tspan class="row-value">Malta, EU</tspan></text>
-  <text x="356" y="162" class="row"><tspan class="key">Uptime</tspan><tspan class="dots"> .............................................. </tspan><tspan class="row-value" id="uptime_data">21 years, 10 months, 17 days</tspan></text>
-  <text x="356" y="187" class="row"><tspan class="key">Host</tspan><tspan class="dots"> ........................................... </tspan><tspan class="row-value">DAWL AI Lab @ University of Malta</tspan></text>
-  <text x="356" y="212" class="row"><tspan class="key">Kernel</tspan><tspan class="dots"> ................................. </tspan><tspan class="row-value">Research Support Officer &amp; MSc AI Student</tspan></text>
-  <text x="356" y="237" class="row"><tspan class="key">Passion.Creativity</tspan><tspan class="dots"> ....... </tspan><tspan class="row-value">Piano · Vinyl Collecting · Digital Design · PC Building</tspan></text>
-  <text x="356" y="262" class="row"><tspan class="key">Passion.Community</tspan><tspan class="dots"> ....................... </tspan><tspan class="row-value">GDG Malta Marketing Lead · Medium Writer</tspan></text>
+  <text x="356" y="112" class="row"><tspan class="key">Alias</tspan><tspan class="dots"> ......................................................................... </tspan><tspan class="row-value">Fili</tspan></text>
+  <text x="356" y="137" class="row"><tspan class="key">Location</tspan><tspan class="dots"> ................................................................. </tspan><tspan class="row-value">Malta, EU</tspan></text>
+  <text x="356" y="162" class="row"><tspan class="key">Uptime</tspan><tspan class="dots"> ................................................ </tspan><tspan class="row-value" id="uptime_data">21 years, 10 months, 17 days</tspan></text>
+  <text x="356" y="187" class="row"><tspan class="key">Host</tspan><tspan class="dots"> ............................................. </tspan><tspan class="row-value">DAWL AI Lab @ University of Malta</tspan></text>
+  <text x="356" y="212" class="row"><tspan class="key">Kernel</tspan><tspan class="dots"> ................................... </tspan><tspan class="row-value">Research Support Officer &amp; MSc AI Student</tspan></text>
+  <text x="356" y="237" class="row"><tspan class="key">Passion.Creativity</tspan><tspan class="dots"> ......... </tspan><tspan class="row-value">Piano · Vinyl Collecting · Digital Design · PC Building</tspan></text>
+  <text x="356" y="262" class="row"><tspan class="key">Passion.Community</tspan><tspan class="dots"> ......................... </tspan><tspan class="row-value">GDG Malta Marketing Lead · Medium Writer</tspan></text>
 
   <text x="356" y="304" class="section">Research</text>
-  <text x="356" y="330" class="row"><tspan class="key">Research.Areas</tspan><tspan class="dots"> ............. </tspan><tspan class="row-value">Computer Vision · Multimodal AI Systems · AI Literacy</tspan></text>
-  <text x="356" y="355" class="row"><tspan class="key">Research.Current</tspan><tspan class="dots"> ....... </tspan><tspan class="row-value">Cross-Paradigm Visual Perception for Municipal Monitoring</tspan></text>
-  <text x="356" y="380" class="row"><tspan class="key">Research.Projects</tspan><tspan class="dots"> .................................................. </tspan><tspan class="row-value">AICOM &amp; EMBAT</tspan></text>
+  <text x="356" y="330" class="row"><tspan class="key">Research.Areas</tspan><tspan class="dots"> ............... </tspan><tspan class="row-value">Computer Vision · Multimodal AI Systems · AI Literacy</tspan></text>
+  <text x="356" y="355" class="row"><tspan class="key">Research.Current</tspan><tspan class="dots"> ......... </tspan><tspan class="row-value">Cross-Paradigm Visual Perception for Municipal Monitoring</tspan></text>
+  <text x="356" y="380" class="row"><tspan class="key">Research.Projects</tspan><tspan class="dots"> .................................................... </tspan><tspan class="row-value">AICOM &amp; EMBAT</tspan></text>
 
   <text x="356" y="422" class="section">Contact</text>
-  <text x="356" y="448" class="row"><tspan class="key">Email.Personal</tspan><tspan class="dots"> ............................................... </tspan><tspan class="row-value">contact@aflucas.com</tspan></text>
-  <text x="356" y="473" class="row"><tspan class="key">Email.Research</tspan><tspan class="dots"> .......................................... </tspan><tspan class="row-value">andrea.f.lucas@um.edu.mt</tspan></text>
-  <text x="356" y="498" class="row"><tspan class="key">Social.LinkedIn</tspan><tspan class="dots"> ........................................................ </tspan><tspan class="row-value">aflucas26</tspan></text>
+  <text x="356" y="448" class="row"><tspan class="key">Email.Personal</tspan><tspan class="dots"> ................................................. </tspan><tspan class="row-value">contact@aflucas.com</tspan></text>
+  <text x="356" y="473" class="row"><tspan class="key">Email.Research</tspan><tspan class="dots"> ............................................ </tspan><tspan class="row-value">andrea.f.lucas@um.edu.mt</tspan></text>
+  <text x="356" y="498" class="row"><tspan class="key">Social.LinkedIn</tspan><tspan class="dots"> .......................................................... </tspan><tspan class="row-value">aflucas26</tspan></text>
 
   <text x="356" y="540" class="section">GitHub Stats</text>
-  <rect x="356" y="554" width="646" height="76" rx="10" class="stats-box"/>
-  <text x="372" y="581" class="row"><tspan class="key">Followers</tspan><tspan class="dots"> ...................... </tspan><tspan class="row-value" id="follower_data">25</tspan></text>
-  <text x="686" y="581" class="row"><tspan class="key">Stars</tspan><tspan class="dots"> .......................... </tspan><tspan class="row-value" id="star_data">21</tspan></text>
-  <text x="372" y="611" class="row"><tspan class="key">Public.Repos</tspan><tspan class="dots"> ................... </tspan><tspan class="row-value" id="repo_data">15</tspan></text>
-  <text x="686" y="611" class="row"><tspan class="key">Contrib.2026</tspan><tspan class="dots"> .................. </tspan><tspan class="row-value" id="contrib_data">402</tspan></text>
+  <rect x="356" y="554" width="706" height="76" rx="10" class="stats-box"/>
+  <text x="372" y="581" class="row"><tspan class="key">Followers</tspan><tspan class="dots"> ........................... </tspan><tspan class="row-value" id="follower_data">25</tspan></text>
+  <text x="714" y="581" class="row"><tspan class="key">Stars</tspan><tspan class="dots"> ............................... </tspan><tspan class="row-value" id="star_data">21</tspan></text>
+  <text x="372" y="611" class="row"><tspan class="key">Public.Repos</tspan><tspan class="dots"> ........................ </tspan><tspan class="row-value" id="repo_data">15</tspan></text>
+  <text x="714" y="611" class="row"><tspan class="key">Contrib.2026</tspan><tspan class="dots"> ....................... </tspan><tspan class="row-value" id="contrib_data">404</tspan></text>
 </svg>
