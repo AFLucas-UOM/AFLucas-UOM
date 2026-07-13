@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="680" viewBox="0 0 1100 680" role="img" aria-labelledby="title desc">
   <title id="title">Andrea Filiberto Lucas GitHub profile terminal card</title>
-  <desc id="desc">A clean macOS Terminal-inspired GitHub profile card using GitHub's dark colour palette.</desc>
+  <desc id="desc">A clean macOS Terminal-inspired GitHub profile card with portrait, overview, research, contact details and GitHub statistics.</desc>
 
   <defs>
     <clipPath id="portraitClip">
@@ -18,9 +18,8 @@
 
     text, tspan { white-space: pre; }
 
-    /* GitHub dark default palette */
     .bg { fill: #0d1117; }
-    .window { fill: #010409; stroke: #30363d; stroke-width: 1.4; }
+    .window { fill: #0b1220; stroke: #30363d; stroke-width: 1.4; }
     .titlebar { fill: #161b22; }
     .divider { stroke: #30363d; stroke-width: 1; }
 
@@ -30,7 +29,7 @@
 
     .title {
       font: 600 13px "TerminalMono", monospace;
-      fill: #8b949e;
+      fill: #c9d1d9;
     }
 
     .portrait-stroke {
@@ -41,7 +40,7 @@
 
     .info-box,
     .stats-box {
-      fill: #0d1117;
+      fill: #111827;
       stroke: #30363d;
       stroke-width: 1.1;
     }
@@ -53,7 +52,7 @@
 
     .left-role {
       font: 600 15px "Segoe UI", Arial, sans-serif;
-      fill: #bc8cff;
+      fill: #d2a8ff;
     }
 
     .left-meta {
@@ -63,7 +62,7 @@
 
     .left-link {
       font: 600 14px "TerminalMono", monospace;
-      fill: #58a6ff;
+      fill: #a5d6ff;
     }
 
     .section {
@@ -76,16 +75,16 @@
     }
 
     .key {
-      fill: #d29922;
+      fill: #ffa657;
       font-weight: 700;
     }
 
     .dots {
-      fill: #484f58;
+      fill: #6e7681;
     }
 
     .row-value {
-      fill: #79c0ff;
+      fill: #a5d6ff;
     }
   </style>
 
@@ -124,7 +123,7 @@
   <text x="356" y="262" class="row"><tspan class="key">Passion.Community</tspan><tspan class="dots"> ....................... </tspan><tspan class="row-value">GDG Malta Marketing Lead · Medium Writer</tspan></text>
 
   <text x="356" y="304" class="section">Research</text>
-  <text x="356" y="330" class="row"><tspan class="key">Research.Areas</tspan><tspan class="dots"> ........ </tspan><tspan class="row-value">Computer Vision (CV) · Multimodal AI Systems · AI Literacy</tspan></text>
+  <text x="356" y="330" class="row"><tspan class="key">Research.Areas</tspan><tspan class="dots"> ............. </tspan><tspan class="row-value">Computer Vision · Multimodal AI Systems · AI Literacy</tspan></text>
   <text x="356" y="355" class="row"><tspan class="key">Research.Current</tspan><tspan class="dots"> ....... </tspan><tspan class="row-value">Cross-Paradigm Visual Perception for Municipal Monitoring</tspan></text>
   <text x="356" y="380" class="row"><tspan class="key">Research.Projects</tspan><tspan class="dots"> .................................................. </tspan><tspan class="row-value">AICOM &amp; EMBAT</tspan></text>
 
@@ -134,9 +133,9 @@
   <text x="356" y="498" class="row"><tspan class="key">Social.LinkedIn</tspan><tspan class="dots"> ........................................................ </tspan><tspan class="row-value">aflucas26</tspan></text>
 
   <text x="356" y="540" class="section">GitHub Stats</text>
-  <rect x="356" y="554" width="694" height="76" rx="10" class="stats-box"/>
-  <text x="372" y="581" class="row"><tspan class="key">Followers</tspan><tspan class="dots"> ........................... </tspan><tspan class="row-value" id="follower_data">25</tspan></text>
-  <text x="714" y="581" class="row"><tspan class="key">Stars</tspan><tspan class="dots"> ............................... </tspan><tspan class="row-value" id="star_data">21</tspan></text>
-  <text x="372" y="611" class="row"><tspan class="key">Public.Repos</tspan><tspan class="dots"> ........................ </tspan><tspan class="row-value" id="repo_data">15</tspan></text>
-  <text x="714" y="611" class="row"><tspan class="key">Contrib.2026</tspan><tspan class="dots"> ....................... </tspan><tspan class="row-value" id="contrib_data">397</tspan></text>
+  <rect x="356" y="554" width="646" height="76" rx="10" class="stats-box"/>
+  <text x="372" y="581" class="row"><tspan class="key">Followers</tspan><tspan class="dots"> ...................... </tspan><tspan class="row-value" id="follower_data">25</tspan></text>
+  <text x="686" y="581" class="row"><tspan class="key">Stars</tspan><tspan class="dots"> .......................... </tspan><tspan class="row-value" id="star_data">21</tspan></text>
+  <text x="372" y="611" class="row"><tspan class="key">Public.Repos</tspan><tspan class="dots"> ................... </tspan><tspan class="row-value" id="repo_data">15</tspan></text>
+  <text x="686" y="611" class="row"><tspan class="key">Contrib.2026</tspan><tspan class="dots"> .................. </tspan><tspan class="row-value" id="contrib_data">402</tspan></text>
 </svg>
