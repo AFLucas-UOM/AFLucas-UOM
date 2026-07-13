@@ -23,7 +23,7 @@ IMAGE_PARTS = tuple(sorted((ROOT / ".github").glob("profile-image.hex.part*")))
 BIRTH_DATE = dt.date(2004, 8, 26)
 
 ROW_WIDTH = 82
-STAT_ROW_WIDTH = 35
+STAT_ROW_WIDTH = 40
 
 
 def github_request(url: str, *, data: dict | None = None) -> dict | list:
