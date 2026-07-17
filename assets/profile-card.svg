@@ -121,7 +121,7 @@
   <text x="356" y="80" class="section">Overview</text>
   <g><text x="356" y="104" class="row key">Alias</text><line x1="402.0" y1="100" x2="1018.4" y2="100" class="leader"/><text x="1056" y="104" text-anchor="end" class="row row-value">Fili</text></g>
   <g><text x="356" y="126" class="row key">Location</text><line x1="427.2" y1="122" x2="976.4" y2="122" class="leader"/><text x="1056" y="126" text-anchor="end" class="row row-value">Malta, EU</text></g>
-  <g><text x="356" y="148" class="row key">Uptime</text><line x1="410.4" y1="144" x2="816.8" y2="144" class="leader"/><text x="1056" y="148" text-anchor="end" class="row row-value" id="uptime_data">21 years, 10 months, 20 days</text></g>
+  <g><text x="356" y="148" class="row key">Uptime</text><line x1="410.4" y1="144" x2="816.8" y2="144" class="leader"/><text x="1056" y="148" text-anchor="end" class="row row-value" id="uptime_data">21 years, 10 months, 21 days</text></g>
   <g><text x="356" y="170" class="row key">Host</text><line x1="393.6" y1="166" x2="774.8" y2="166" class="leader"/><text x="1056" y="170" text-anchor="end" class="row row-value">DAWL AI Lab @ University of Malta</text></g>
   <g><text x="356" y="192" class="row key">Kernel</text><line x1="410.4" y1="188" x2="707.6" y2="188" class="leader"/><text x="1056" y="192" text-anchor="end" class="row row-value">Research Support Officer &amp; MSc AI Student</text></g>
   <g><text x="356" y="236" class="row key" style="font-size:13px">Passion.Creativity</text><line x1="500.4" y1="232" x2="623.0" y2="232" class="leader"/><text x="1056" y="236" text-anchor="end" class="row row-value" style="font-size:13px">Piano · Vinyl Collecting · Digital Design · PC Building</text></g>
@@ -143,5 +143,5 @@
   <g><text x="372" y="552" class="row key">Followers</text><line x1="451.6" y1="548" x2="665.2" y2="548" class="leader"/><text x="686" y="552" text-anchor="end" class="row row-value" id="follower_data">25</text></g>
   <g><text x="714" y="552" class="row key">Stars</text><line x1="760.0" y1="548" x2="1035.2" y2="548" class="leader"/><text x="1056" y="552" text-anchor="end" class="row row-value" id="star_data">21</text></g>
   <g><text x="372" y="602" class="row key">Public.Repos</text><line x1="476.8" y1="598" x2="665.2" y2="598" class="leader"/><text x="686" y="602" text-anchor="end" class="row row-value" id="repo_data">15</text></g>
-  <g><text x="714" y="602" class="row key">Contrib.2026</text><line x1="818.8" y1="598" x2="1026.8" y2="598" class="leader"/><text x="1056" y="602" text-anchor="end" class="row row-value" id="contrib_data">413</text></g>
+  <g><text x="714" y="602" class="row key">Contrib.2026</text><line x1="818.8" y1="598" x2="1026.8" y2="598" class="leader"/><text x="1056" y="602" text-anchor="end" class="row row-value" id="contrib_data">414</text></g>
 </svg>
